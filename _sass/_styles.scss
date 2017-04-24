@@ -1,6 +1,106 @@
-body {}
+/**
+ * My styles
+ */
 
+/**
+ * Text
+ */
+
+ .text-inverted   { color: #ffffff; }
+ .text-muted      { opacity: 0.5; }
+ .text-bold       { font-weight: bold; }
+
+
+
+.intro {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
+  background: -webkit-linear-gradient(top, #2E2E50, #1f1f35);
+  background: -moz-linear-gradient(top, #2E2E50, #1f1f35);
+  background: -ms-linear-gradient(top, #2E2E50, #1f1f35);
+  background: -o-linear-gradient(top, #2E2E50, #1f1f35);
+  background: linear-gradient(top, #2E2E50, #1f1f35);
+  /*
+  background-image: -webkit-linear-gradient(#2E2E50 0%, #1F1F35 100%);
+  background-image: -moz-linear-gradient(#2E2E50 0%, #1F1F35 100%);
+  background-image: -o-linear-gradient(#2E2E50 0%, #1F1F35 100%);
+  background-image: linear-gradient(#2E2E50 0%, #1F1F35 100%);*/
+  margin: 0 0 0 0;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+
+  .logo-intro {
+    img {
+      width: 200px;
+      margin-top: 12em;
+    }
+  }
+
+  .intro-waves {
+    bottom: 0;
+    margin-bottom: -1px;
+    //position: absolute;
+    right: 0;
+
+    .wave-cover {
+      height: 50px;
+      width: 100%;
+      position: relative;
+      background: $background-color;
+      margin-top: -300px;
+    }
+
+    .wave1 {
+      margin-top: 100px;
+    }
+
+    svg {
+      //border: 1px solid grey;
+      //height: 300px;
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
 
 .post-header {
   color: #424242;
 }
+
+.post-list {
+  .post-block {
+    background: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    border-radius: 4px;
+    display: inline-block;
+    margin: .2em;
+    max-width: 30%;
+    overflow: hidden;
+
+    .post-image {
+      border-bottom: 1px solid #00E5FF;
+    }
+  }
+}
+
+
+
+/**
+ * Screen: lg
+ */
+
+@media screen and (min-width: $on-laptop) {
+  .intro {
+    min-height: 810px;
+  }
+}
+
+
+
+/**
+ * Screen: sm
+ */
+
+ @media screen and (min-width: $on-palm) {
+
+ }

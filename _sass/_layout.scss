@@ -162,11 +162,21 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    //padding: $spacing-unit 0;
 }
 
 .page-heading {
     font-size: 20px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+    span {
+      background: $background-color;
+      padding: 0 10px;
+    }
 }
 
 .post-list {
