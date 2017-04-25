@@ -1,16 +1,6 @@
 /**
- * My styles
+ * Home styles
  */
-
-/**
- * Text
- */
-
- .text-inverted   { color: #ffffff; }
- .text-muted      { opacity: 0.5; }
- .text-bold       { font-weight: bold; }
-
-
 
 .intro {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
@@ -19,35 +9,77 @@
   background: -ms-linear-gradient(top, #2E2E50, #1f1f35);
   background: -o-linear-gradient(top, #2E2E50, #1f1f35);
   background: linear-gradient(top, #2E2E50, #1f1f35);
-  /*
-  background-image: -webkit-linear-gradient(#2E2E50 0%, #1F1F35 100%);
-  background-image: -moz-linear-gradient(#2E2E50 0%, #1F1F35 100%);
-  background-image: -o-linear-gradient(#2E2E50 0%, #1F1F35 100%);
-  background-image: linear-gradient(#2E2E50 0%, #1F1F35 100%);*/
   margin: 0 0 0 0;
   position: relative;
+
   text-align: center;
-  z-index: 1;
 
   .logo-intro {
     img {
       width: 200px;
-      margin-top: 12em;
+      margin-top: 10em;
+    }
+  }
+
+  h1 {
+    margin: 0 0 -10px 0;
+  }
+
+  h1, h4 {
+    font-weight: 300;
+  }
+
+  a {
+    font-weight: 300;
+    letter-spacing: .1em;
+  }
+
+  a:visited {
+    color: #ffffff;
+  }
+
+  ul {
+    li {
+      transition: all 0.5s ease;
+      list-style: none;
+      display: inline;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .intro-nav {
+    margin-top: 3em;
+
+    li {
+      margin: 2em;
+    }
+  }
+
+  .intro-social {
+    margin-bottom: -5em;
+
+    img {
+      max-height: 17px;
+    }
+
+    li {
+      margin: 1em;
     }
   }
 
   .intro-waves {
     bottom: 0;
-    margin-bottom: -1px;
-    //position: absolute;
     right: 0;
 
     .wave-cover {
-      height: 50px;
+      height: 140px;
       width: 100%;
       position: relative;
       background: $background-color;
-      margin-top: -300px;
+      margin-top: -250px;
     }
 
     .wave1 {
@@ -55,8 +87,6 @@
     }
 
     svg {
-      //border: 1px solid grey;
-      //height: 300px;
       height: 500px;
       width: 100%;
     }
@@ -64,26 +94,48 @@
 }
 
 .post-header {
-  color: #424242;
+  @include strong-text;
 }
 
 .post-list {
+  @include flexcenter;
+
   .post-block {
-    background: #ffffff;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
-    border-radius: 4px;
+    @include card;
     display: inline-block;
     margin: .2em;
     max-width: 30%;
     overflow: hidden;
 
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     .post-image {
       border-bottom: 1px solid #00E5FF;
+    }
+
+    .post-details {
+      padding: .5em 0 .5em 1em;
+
+      .post-title {
+        @include strong-text;
+        margin-bottom: -5px;
+      }
     }
   }
 }
 
 
+.process-list {
+  @include flexcenter;
+}
+
+.about-content {
+  @include flexcenter;
+}
 
 /**
  * Screen: lg
@@ -94,8 +146,6 @@
     min-height: 810px;
   }
 }
-
-
 
 /**
  * Screen: sm

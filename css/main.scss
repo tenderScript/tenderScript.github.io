@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family:  'Source Sans Pro', sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Source Sans Pro', sans-serif;
+$base-font-size:   100%;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -25,6 +25,46 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+// My styles
+$text-dark:        #424242;
+$text-light:       #bdbdbd;
+$text-xxl:         1.75em;
+$text-xl:          1.5em;
+$text-lg:          1.25em;
+$text-reg:         1em;
+$text-sm:          .80em;
+$text-xs:          .65em;
+
+.muted           { opacity: 0.5; }
+.text-inverted   { color: #ffffff; }
+.text-inactive   { color: $text-light; }
+.text-italic     { font-style: italic; }
+.text-bolder     { font-weight: 700; }
+
+@mixin strong-text {
+  color: $text-dark;
+  font-weight: 600;
+  letter-spacing: .1pt;
+}
+
+@mixin card {
+  background: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+
+@mixin flexcenter {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: row;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 
 // Using media queries with like this:
 // @include media-query($palm) {
