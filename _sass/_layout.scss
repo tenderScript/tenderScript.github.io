@@ -166,12 +166,13 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    @include strong-text;
+    font-size: $text-lg;
     text-align: center;
     width: 100%;
     border-bottom: 1px solid #E0E0E0;
     line-height: 0.1em;
-    margin: 10px 0 20px;
+    margin: 10px 0 10px;
 
     span {
       background: $background-color;
@@ -195,7 +196,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    //font-size: 24px;
 }
 
 
@@ -208,9 +209,9 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    //font-size: 42px;
+    //letter-spacing: -1px;
+    //line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;

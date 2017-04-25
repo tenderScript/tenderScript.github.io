@@ -3,23 +3,31 @@ layout: default
 ---
 
  <div class="intro">
-      <div class="logo-intro"><img src="../images/te-Logo-Transparent.png"></div>
-      <div class="title-intro text-inverted">
-        <h1>Tony Ellison</h1>
-        <label>Ux + Visual Designer</label>
-      </div>
-      <div class="nav-intro"></div>
-
-      <div class="intro-waves">
-        <svg class="wave1"></svg>
-        <div class="wave-cover"></div>
-      </div>
-
+  <div class="logo-intro"><img src="../images/te-Logo-Transparent.png"></div>
+    <div class="title-intro text-inverted">
+      <h1>TONY ELLISON</h1>
+      <h4>Ux + Visual Designer</h4>
+    </div>
+    <ul class="intro-nav">
+      <li><a href="#" class="text-inverted">Portfolio</a></li>
+      <li><a href="#" class="text-inverted">Resume</a></li>
+      <li><a href="#" class="text-inverted">About</a></li>
+      <li><a href="#" class="text-inverted">Contact</a></li>
+    </ul>
+    <ul class="intro-social">
+      <li class="muted"><a href="https://www.linkedin.com/in/tonyjellison/" target="_blank"><img src="../images/linkdin-icon.png"></a></li>
+      <li class="muted"><a href="https://www.behance.net/tonyjellison" target="_blank"><img src="../images/behance-icon.png"></a></li>
+      <li class="muted"><a href="https://dribbble.com/Tonyjellison" target="_blank"><img src="../images/dribbble-icon.png"></a></li>
+      <li class="muted"><a href="https://github.com/tenderScript" target="_blank"><img src="../images/github-icon.png"></a></li>
+      <li class="muted"><a href="http://codepen.io/tenderScript/" target="_blank"><img src="../images/codepen-icon.png"></a></li>
+    </ul>
+    <div class="intro-waves">
+      <svg class="wave1"></svg>
+      <div class="wave-cover"></div>
+    </div>
   </div>
 
   <div class="wrapper">
-    <svg class="paper"></svg>
-    <svg class="svg"></svg>
     <section>
       <h2 class="page-heading"><span>Recent Work</span></h2>
       {{ content }}
@@ -27,11 +35,13 @@ layout: default
         {% for post in site.posts %}
           <li class="post-block">
             <a class="post-link" href="{{ post.url | relative_url }}">
-            <img class="post-image" src="{{ post.image }}">
-            <h3>
-              {{ post.title | escape }}
-            </h3>
-            <span class="post-meta">{{ post.categories }}</span>
+              <div class="post-image">
+                <img src="{{ post.image }}">
+              </div>
+              <div class="post-details">
+                <h4 class="post-title">{{ post.title | escape }}</h4>
+                <label class="post-meta">{{ post.categories }}</label>
+              </div>
             </a>
           </li>
         {% endfor %}
@@ -40,16 +50,50 @@ layout: default
 
     <section>
       <h2 class="page-heading"><span>Process</span></h1>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+      <div class="process-list">
+        <ul>
+          <img src="#">
+          <h4>Research</h4>
+          <li>Parallel Industry Research</li>
+          <li>Best Practice Research</li>
+          <li>Past Iterations Research</li>
+          <li>Create Analytics Inventory</li>
+        </ul>
+        <ul>
+          <img src="#">
+          <h4>Planning</h4>
+          <li>Site Mapping</li>
+          <li>Userflows</li>
+          <li>Wireframing / Prototyping</li>
+          <li>User Testing</li>
+        </ul>
+        <ul>
+          <img src="#">
+          <h4>Implment</h4>
+          <li>Create Moodboard</li>
+          <li>Design Visual Assets</li>
+          <li>Development</li>
+        </ul>
+        <ul>
+          <img src="#">
+          <h4>Iterate</h4>
+          <li>Collect Feedback</li>
+          <li>Customer Acceptence</li>
+          <li>User Test</li>
+          <li>Add Features</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2 class="page-heading"><span>About</span></h1>
-        <div>1</div>
-        <div>2</div>
+        <div class="about-content">
+          <div>Tony Ellison is a designer from the midwest who’s passion is in the potential design thinking has for solving real world problems. Hes has had the oppertunity to work over a broad range of tech throughout his career, school, and personal life. Outside of work Tony is a world traveler, snowboarder, avid doodler, and boardgame enthusist.
+          </div>
+          <div>
+           <img src="../images/tony.png">
+          </div>
+        </div>
     </section>
 
   </div><!-- End Wrapper -->
