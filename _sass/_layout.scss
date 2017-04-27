@@ -161,8 +161,16 @@
 /**
  * Page content
  */
+
 .page-content {
     //padding: $spacing-unit 0;
+}
+
+.page-section {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
 .page-heading {
@@ -172,7 +180,8 @@
     width: 100%;
     border-bottom: 1px solid #E0E0E0;
     line-height: 0.1em;
-    margin: 10px 0 10px;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     span {
       background: $background-color;
@@ -180,6 +189,10 @@
     }
 }
 
+
+/**
+ * Post content
+ */
 .post-list {
     margin-left: 0;
     list-style: none;

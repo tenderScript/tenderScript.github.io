@@ -2,12 +2,12 @@
 
 
 window.onload = function() {
-  var winWidth = document.documentElement.clientWidth;
-  animateWave1(2, 2000);
+
+  animateWave1(winWidth, 2000);
   //animateWave2(2, 5000);
 };
 
-
+var winWidth = document.documentElement.clientWidth;
 var startPath = "M-10 250 C 0 250, 1 250, 300 250 S 600 250, 1540 250";
 var wave1= Snap('.wave1').path([startPath]).attr({
   fill: "#f8f8f8",
@@ -24,12 +24,12 @@ var wave2= Snap('.wave1').path([startPath]).attr({
 
 */
 function animateWave1(width, miliSec) {
-  var x = width;
+  var x = width + 100;
   var time = miliSec;
-  var Path1 = "M-10 275 C 0 275, 200 175, 400 175 S 600 250, 1540 275";
-  var Path2 = "M-10 300 C 0 300, 400 200, 700 175 S 1100 300, 1540 275";
-  var Path3 = "M-10 275 C 0 275, 600 225, 900 175 S 1200 175, 1540 300";
-  var Path4 = "M-10 275 C 0 275, 800 250, 1200 175 S 1400 175, 1540 275";
+  var Path1 = "M-10 275 C 0 275, 200 175, 400 175 S 600 250, " + winWidth + " 275";
+  var Path2 = "M-10 300 C 0 300, 400 200, 700 175 S 1100 300, " + winWidth + " 275";
+  var Path3 = "M-10 275 C 0 275, 600 225, 900 175 S 1200 175, " + winWidth + " 300";
+  var Path4 = "M-10 275 C 0 275, 800 250, 1200 175 S 1400 175, " + winWidth + " 275";
   var Path5 = "M-10 275 C 0 275, 1200 300, 1400 300 S 1600 300, 1740 300";
 
   console.log("1");
