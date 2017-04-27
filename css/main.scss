@@ -23,6 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-display:       1200px;
 
 
 // My styles
@@ -58,12 +59,29 @@ $text-xs:          .65em;
   -webkit-justify-content: center;
   -webkit-flex-direction: row;
   -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+@mixin flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin spacing-lg {
+  margin: $spacing-unit;
+}
+
+@mixin spacing-md {
+  margin: $spacing-unit / 2;
+}
+
+@mixin spacing-sm {
+  margin: $spacing-unit / 3;
 }
 
 // Using media queries with like this:
