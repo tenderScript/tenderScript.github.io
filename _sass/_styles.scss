@@ -11,8 +11,8 @@
   background: linear-gradient(top, #2E2E50, #1f1f35);
   margin: 0 0 0 0;
   position: relative;
-
   text-align: center;
+  z-index: 1;
 
   .logo-intro {
     img {
@@ -86,9 +86,38 @@
       margin-top: 100px;
     }
 
+    .wave2 {
+      margin-bottom: -615px;
+    }
+
+    .wave3 {
+      margin-bottom: -615px;
+    }
+
     svg {
       height: 500px;
       width: 100%;
+    }
+  }
+
+  .particle-wrapper {
+    position: absolute;
+    margin-top: 300px;
+    width: 100%;
+    z-index: 0;
+
+
+    .particle-fade {
+      border-radius: 50%;
+      box-shadow: 1px 1px 10px rgba(40, 118, 255, 1);
+      height: 8px;
+      width: 5px;
+      left: 50%;
+      background: #00E1FF;/* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#00E1FF, #8E5EFF); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#00E1FF, #8E5EFF); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#00E1FF, #8E5EFF); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#00E1FF, #8E5EFF); /* Standard syntax */
     }
   }
 }
