@@ -84,6 +84,35 @@ $text-xs:          .65em;
   margin: $spacing-unit / 3;
 }
 
+@mixin p-rise($rise-speed) {
+  -webkit-animation: rise-slow ($rise-speed) infinite;
+  -moz-animation:    rise-slow ($rise-speed) infinite;
+  -o-animation:      rise-slow ($rise-speed) infinite;
+  animation:         rise-slow ($rise-speed) infinite;
+
+  .fadeOut {
+    -webkit-animation-duration: ($rise-speed);
+    animation-duration: ($rise-speed);
+  }
+
+  @-webkit-keyframes rise-slow {
+    0%   { margin-top: 0px; }
+    100% { margin-top:-300px; }
+  }
+  @-moz-keyframes rise-slow {
+    0%   { margin-top: 0px; }
+    100% { margin-top:-300px; }
+  }
+  @-o-keyframes rise-slow {
+     0%   { margin-top: 0px; }
+    100% { margin-top:-300px; }
+  }
+  @keyframes rise-slow {
+     0%   { margin-top: 0px; }
+    100% { margin-top:-300px; }
+  }
+}
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
