@@ -113,6 +113,14 @@ $text-xs:          .65em;
   }
 }
 
+@mixin gradient($startColor, $endColor) {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($startColor), to($endColor));
+  background: -webkit-linear-gradient(top, $startColor, $endColor);
+  background: -moz-linear-gradient(top, $startColor, $endColor);
+  background: -ms-linear-gradient(top, $startColor, $endColor);
+  background: -o-linear-gradient(top, $startColor, $endColor);
+  background: linear-gradient(top, $startColor, $endColor);
+}
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
