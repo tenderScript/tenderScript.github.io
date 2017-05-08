@@ -102,11 +102,6 @@ function animateWave(waveNum, width, miliSec) {
 
 /*improving
 function animatePath(waveNum, pathObj, miliSec) {
-  var wave1= Snap('.wave1').path([pathObj[0]]).attr({
-    fill: "#f8f8f8",
-    stroke: "#f8f8f8",
-    strokeWidth: 200
-  });
 
   for (var i = 0; i < pathObj.length; i++) {
     setTimeout(function(){
@@ -118,15 +113,4 @@ function animatePath(waveNum, pathObj, miliSec) {
     animatepath(waveNum, pathObj, miliSec);
   }, (miliSec * (pathObj.length + 1)))
 };
-
-
-var path1 = [
-  "M-10 250 C 0 250, 1 250, 300 250 S 600 250, " + winWidth + " 250",
-  "M-10 275 C 0 275, 200 175, 400 175 S 600 250, " + winWidth + " 275",
-  "M-10 300 C 0 300, 400 200, 700 175 S 1100 300, " + winWidth + " 275",
-  "M-10 275 C 0 275, 600 225, 900 175 S 1200 175, " + winWidth + " 300",
-  "M-10 275 C 0 275, 800 250, 1200 175 S 1400 175, " + winWidth + " 275",
-  "M-10 275 C 0 275, 1200 300, 1400 300 S 1600 300, " + ( winWidth + 300 ) + " 300"
-];
-
 */

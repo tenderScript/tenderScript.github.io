@@ -14,7 +14,17 @@ image: /../images/post-Sportshub.png
 
 **Solution:** Create a new platform for VNN’s partners fixing usability issues, add mobile support, relieve technical debt, add features to streamline content creation.
 
+![Mockup](/../images/posts/sports-hub/devices.png)
 
+
+<table class="post-content-section">
+    <tr>
+        <td>
+        <p><strong>Research & Discovery</strong></p>
+        <p>Reaserch and discovery was split between design and product management. We started interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents. </p>
+        </td>
+    </tr>
+</table>
 
 **Discovery**
 
@@ -26,42 +36,53 @@ Discovery research was split between design and product management. We started i
 
 We frequently heard from Athletic Directors about their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
 
-![Persona1](/../images/posts/sports-hub/th/th-persona1.png "Logo Title Text 1")
-![Persona2](/../images/posts/sports-hub/th/th-persona2.png "Logo Title Text 1")
+![Persona1](/../images/posts/sports-hub/th/th-persona1.png)
+![Persona2](/../images/posts/sports-hub/th/th-persona2.png)
 
 **Evaluation**
 
 The original product contained many features needed to solve our user’s problems, but suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
 
-![Evaluation](/../images/posts/sports-hub/th/th-evaluation.png "Logo Title Text 1")
+![Evaluation](/../images/posts/sports-hub/th/th-evaluation.png)
 
 
-**Planning**
-
-After discovery and user research, all pages of the existing product were outlined for evaluation. We identified existing issues with the product’s structure before addressing the usability concerns.
+<table class="post-content-section">
+    <tr>
+        <td>
+        <p><strong>Planning</strong></p>
+        <p>After discovery and user research, all pages of the existing product were outlined for evaluation. We identified existing issues with the product’s structure before addressing the usability concerns.</p>
+        </td>
+    </tr>
+</table>
 
 
 
 **Suggested Sitemap & User-flows**
 
-![Site map displaying all the pages of the new website](/../images/posts/sports-hub/full/full-sitemap.png "Logo Title Text 1")
-![Userflow1](/../images/posts/sports-hub/th/th-userflow1.png "Logo Title Text 1")
-![Userflow2](/../images/posts/sports-hub/th/th-userflow2.png "Logo Title Text 1")
-![Userflow3](/../images/posts/sports-hub/th/th-userflow3.png "Logo Title Text 1")
+![Site map displaying all the pages of the new website](/../images/posts/sports-hub/full/full-sitemap.png)
+![Userflow1](/../images/posts/sports-hub/th/th-userflow1.png)
+![Userflow2](/../images/posts/sports-hub/th/th-userflow2.png)
+![Userflow3](/../images/posts/sports-hub/th/th-userflow3.png)
 
 
 **Wireframes**
 
 To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our prototype. During user research we learned that some of our users only concern was a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by team. Our usability tests showed users still preferred the existing products route to teams, however the real issue was that the team filtering happening in the wrong place.  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
 
-![wireframe1](/../images/posts/sports-hub/th/th-wireframe1.png "Logo Title Text 1")
-![wireframe2](/../images/posts/sports-hub/th/th-wireframe2.png "Logo Title Text 1")
-![wireframe3](/../images/posts/sports-hub/th/th-wireframe3.png "Logo Title Text 1")
+![wireframe1](/../images/posts/sports-hub/th/th-wireframe1.png)
+![wireframe2](/../images/posts/sports-hub/th/th-wireframe2.png)
+![wireframe3](/../images/posts/sports-hub/th/th-wireframe3.png)
 
 
-**Implementation**
 
-After testing the prototype, it was time to create the visuals to be used for Sports Hub. We needed flexible theming options for VNN’s partners, but the product still called for a solid foundation for the visual rules to avoid usability issues.
+<table class="post-content-section">
+    <tr>
+        <td>
+        <p><strong>Implementation</strong></p>
+        <p>After testing the prototype, it was time to create the visuals to be used for Sports Hub. We needed flexible theming options for VNN’s partners, but the product still called for a solid foundation for the visual rules to avoid usability issues.</p>
+        </td>
+    </tr>
+</table>
 
 
 
@@ -71,23 +92,23 @@ To make sure the project remained consistent throughout our product iterations, 
 
 **Atoms**
 The most basic pieces of the site that contain no value on their own.
-![atom1](/../images/posts/sports-hub/th/th-atom1.png "Logo Title Text 1")
-![atom2](/../images/posts/sports-hub/th/th-atom2.png "Logo Title Text 1")
+![atom1](/../images/posts/sports-hub/th/th-atom1.png)
+![atom2](/../images/posts/sports-hub/th/th-atom2.png)
 
 **Molecules**
 Composed of atoms, but contain values that are lost without context.
-![Molecule1](/../images/posts/sports-hub/th/th-molecule1.png "Logo Title Text 1")
-![Molecule2](/../images/posts/sports-hub/th/th-molecule2.png "Logo Title Text 1")
+![Molecule1](/../images/posts/sports-hub/th/th-molecule1.png)
+![Molecule2](/../images/posts/sports-hub/th/th-molecule2.png)
 
 **Organisms**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Organism1](/../images/posts/sports-hub/th/th-organism1.png "Logo Title Text 1")
-![Organism2](/../images/posts/sports-hub/th/th-organism2.png "Logo Title Text 1")
+![Organism1](/../images/posts/sports-hub/th/th-organism1.png)
+![Organism2](/../images/posts/sports-hub/th/th-organism2.png)
 
 
 
-![Desktop Mockups](/../images/posts/sports-hub/th/th-desk.png "Logo Title Text 1")
-![Mobile Mockups](/../images/posts/sports-hub/th/th-mobile.png "Logo Title Text 1")
+![Desktop Mockups](/../images/posts/sports-hub/th/th-desk.png)
+![Mobile Mockups](/../images/posts/sports-hub/th/th-mobile.png)
 
 
 
@@ -103,22 +124,28 @@ I learned not every palette could use the exact same theme logic, but discovered
 
 **Light**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Light Theme](/../images/posts/sports-hub/th/th-light.png "Logo Title Text 1")
+![Light Theme](/../images/posts/sports-hub/th/th-light.png)
 
 **Two Color**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Two Color Theme](/../images/posts/sports-hub/th/th-twocolor.png "Logo Title Text 1")
+![Two Color Theme](/../images/posts/sports-hub/th/th-twocolor.png)
 
 **Dark**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Dark Theme](/../images/posts/sports-hub/th/th-dark.png "Logo Title Text 1")
+![Dark Theme](/../images/posts/sports-hub/th/th-dark.png)
 
 
+<table class="post-content-section">
+    <tr>
+        <td>
+        <p><strong>Release</strong></p>
+        <p>After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product.</p>
+        </td>
+    </tr>
+</table>
 
-**Release**
 
-After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product.
-![Dark Theme](/../images/posts/sports-hub/th/th-altcolors.png "Logo Title Text 1")
+![Dark Theme](/../images/posts/sports-hub/th/th-altcolors.png)
 
 
 **Summary**
