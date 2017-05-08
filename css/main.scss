@@ -37,10 +37,20 @@ $text-sm:          .80em;
 $text-xs:          .65em;
 
 .muted           { opacity: 0.5; }
-.text-inverted   { color: #ffffff; }
 .text-inactive   { color: $text-light; }
 .text-italic     { font-style: italic; }
 .text-bolder     { font-weight: 700; }
+.text-inverted   {
+  color: #ffffff;
+  a {
+    color: #ffffff;
+
+    &:visited {
+      color: #ffffff;
+    }
+  }
+}
+
 
 @mixin strong-text {
   color: $text-dark;
@@ -84,35 +94,6 @@ $text-xs:          .65em;
   margin: $spacing-unit / 3;
 }
 
-@mixin p-rise($rise-speed) {
-  -webkit-animation: rise-slow ($rise-speed) infinite;
-  -moz-animation:    rise-slow ($rise-speed) infinite;
-  -o-animation:      rise-slow ($rise-speed) infinite;
-  animation:         rise-slow ($rise-speed) infinite;
-
-  .fadeOut {
-    -webkit-animation-duration: ($rise-speed);
-    animation-duration: ($rise-speed);
-  }
-
-  @-webkit-keyframes rise-slow {
-    0%   { margin-top: 0px; }
-    100% { margin-top:-300px; }
-  }
-  @-moz-keyframes rise-slow {
-    0%   { margin-top: 0px; }
-    100% { margin-top:-300px; }
-  }
-  @-o-keyframes rise-slow {
-     0%   { margin-top: 0px; }
-    100% { margin-top:-300px; }
-  }
-  @keyframes rise-slow {
-     0%   { margin-top: 0px; }
-    100% { margin-top:-300px; }
-  }
-}
-
 @mixin gradient($startColor, $endColor) {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($startColor), to($endColor));
   background: -webkit-linear-gradient(top, $startColor, $endColor);
@@ -142,5 +123,9 @@ $text-xs:          .65em;
         "base",
         "layout",
         "syntax-highlighting",
-        "styles"
+        "styles",
+        "home",
+        "portfolio",
+        "about",
+        "contact"
 ;

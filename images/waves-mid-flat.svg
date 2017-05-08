@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="346px" viewBox="0 0 1440 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>mid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="1.39941801%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2E2E50" offset="0%"></stop>
+            <stop stop-color="#1F1F35" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,25 C0,25 254,-22 720,15 C1186,52 1440,25 1440,25 L1440,327 C1440,327 1050,285 720,327 C390,369 0,327 0,327 L0,25 Z" id="path-2"></path>
+        <radialGradient cx="47.2318321%" cy="-31.6024214%" fx="47.2318321%" fy="-31.6024214%" r="59.4137322%" gradientTransform="translate(0.472318,-0.316024),scale(0.049868,1.000000),rotate(90.000000),scale(1.000000,3.104493),translate(-0.472318,0.316024)" id="radialGradient-4">
+            <stop stop-color="#03E6FF" offset="0%"></stop>
+            <stop stop-color="#8062FF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="47.2318321%" cy="-31.6024214%" fx="47.2318321%" fy="-31.6024214%" r="59.4137322%" gradientTransform="translate(0.472318,-0.316024),scale(0.067836,1.000000),rotate(90.000000),scale(1.000000,3.104493),translate(-0.472318,0.316024)" id="radialGradient-5">
+            <stop stop-color="#03E6FF" offset="0%"></stop>
+            <stop stop-color="#8062FF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="58.0546379%" cy="-54.4435741%" fx="58.0546379%" fy="-54.4435741%" r="100%" gradientTransform="translate(0.580546,-0.544436),scale(0.050540,1.000000),rotate(90.000000),scale(1.000000,5.035378),translate(-0.580546,0.544436)" id="radialGradient-6">
+            <stop stop-color="#03E6FF" offset="0%"></stop>
+            <stop stop-color="#8062FF" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#00EBFB" offset="0%"></stop>
+            <stop stop-color="#9758FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Post---Sportshub" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mid">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <path d="M0,303.777778 C0,303.777778 396,279.777778 720,311 C1044,342.222222 1440,303.777778 1440,303.777778 L1440,366.777778 L0,366.777778 L0,303.777778 Z" id="bottom2" fill="url(#radialGradient-4)" opacity="0.308826959" mask="url(#mask-3)"></path>
+            <path d="M0,319.962963 C0,319.962963 371,398 720,319.962963 C1069,241.925926 1440,319.962963 1440,319.962963 L1440,382.962963 L0,382.962963 L0,319.962963 Z" id="bottom1" fill="url(#radialGradient-5)" opacity="0.502623601" mask="url(#mask-3)"></path>
+            <path d="M0,-24 L1440,-24 L1440,39 C1440,39 1208,61 720,39 C232,17 0,39 0,39 L0,-24 Z" id="top-2" fill="url(#radialGradient-6)" opacity="0.25" mask="url(#mask-3)"></path>
+            <path d="M0,-35 L1440,-35 L1440,28 C1440,28 1043,-13 720,28 C397,69 0,28 0,28 L0,-35 Z" id="top1" fill="url(#linearGradient-7)" opacity="0.148204291" mask="url(#mask-3)"></path>
+        </g>
+    </g>
+</svg>
