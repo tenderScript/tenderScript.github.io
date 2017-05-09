@@ -36,21 +36,82 @@
 
       <section class="page-section">
         <h2 class="page-heading"><span>Recent Work</span></h2>
-        {{ content }}
+
         <ul class="post-list">
-          {% for post in site.posts %}
+
             <li class="post-block">
-              <a class="post-link" href="{{ post.url | relative_url }}">
+              <a class="post-link" href="/sports-hub/">
                 <div class="post-image">
-                  <img src="{{ post.image }}">
+                  <img src="../images/posts/sports-hub/post-sportshub.png">
                 </div>
                 <div class="post-details">
-                  <h4 class="post-title">{{ post.title | escape }}</h4>
-                  <label class="post-meta">{{ post.categories }}</label>
+                  <h4 class="post-title">Sports Hub</h4>
+                  <label class="post-meta">Ux + Ui</label>
                 </div>
               </a>
             </li>
-          {% endfor %}
+
+            <li class="post-block">
+              <a class="post-link" href="/team-logos/">
+                <div class="post-image">
+                  <img src="../images/posts/team-logos/post-teamlogos.png">
+                </div>
+                <div class="post-details">
+                  <h4 class="post-title">Team Logos</h4>
+                  <label class="post-meta">Visual Design</label>
+                </div>
+              </a>
+            </li>
+
+            <li class="post-block">
+              <a class="post-link" href="/vnn-branding/">
+                <div class="post-image">
+                  <img src="../images/posts/vnn-branding/post-vnn-branding.png">
+                </div>
+                <div class="post-details">
+                  <h4 class="post-title">VNN Branding</h4>
+                  <label class="post-meta">Ux + Ui</label>
+                </div>
+              </a>
+            </li>
+
+            <li class="post-block">
+              <a class="post-link" href="/profesh/">
+                <div class="post-image">
+                  <img src="../images/posts/profesh/post-profesh.png">
+                </div>
+                <div class="post-details">
+                  <h4 class="post-title">Professional Suite</h4>
+                  <label class="post-meta">Ux</label>
+                </div>
+              </a>
+            </li>
+
+            <li class="post-block">
+              <a class="post-link" href="/web-banners/">
+                <div class="post-image">
+                  <img src="../images/posts/web-banners/post-web-banners.png">
+                </div>
+                <div class="post-details">
+                  <h4 class="post-title">Advertising Design</h4>
+                  <label class="post-meta">Visual Design</label>
+                </div>
+              </a>
+            </li>
+
+            <li class="post-block">
+              <a class="post-link" href="/misc/">
+                <div class="post-image">
+                  <img src="../images/posts/misc/post-misc.png">
+                </div>
+                <div class="post-details">
+                  <h4 class="post-title">Misc Work</h4>
+                  <label class="post-meta">Visual Design</label>
+                </div>
+              </a>
+            </li>
+
+
         </ul>
       </section>
 
@@ -119,7 +180,7 @@
                 a world traveler, snowboarder, avid doodler, and boardgame enthusist.
               </p>
               <a href="#">View Resume</a>
-              <a href="#">Read More</a>
+              <a href="/about/">Read More</a>
             </div>
             <div class="profile">
              <img src="../images/tony.png">

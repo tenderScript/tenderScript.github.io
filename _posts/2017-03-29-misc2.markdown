@@ -3,7 +3,6 @@ layout: post
 title:  "Misc"
 date:   2017-03-29 12:00:00 -0500
 categories: Visual Design
-image: /../images/posts/misc/post-misc.png
-permalink: /misc/
+image: /../images/posts/misc2/post-misc2.png
 ---
 Copy Me!
