@@ -80,8 +80,6 @@ nav {
   }
 }
 
-
-
 .process-list {
   @include flexcenter;
 
@@ -122,23 +120,6 @@ footer {
   position: relative;
   text-align: center;
 
-  .footer-waves {
-    .wave-cover {
-      height: 160px;
-      background: #f8f8f8;
-      width: 100%;
-    }
-
-    .wave4 {
-      margin-top: -250px;
-    }
-
-    svg {
-      height: 500px;
-      width: 100%;
-    }
-  }
-
   .logo-sm {
     margin-bottom: 20px;
 
@@ -156,6 +137,35 @@ footer {
 }
 
 
+.footer-waves {
+  .wave-cover {
+    position: relative;
+    height: 160px;
+    width: 100%;
+    background: $background-color;
+    z-index: 3;
+  }
+
+  .wave1, .wave4 {
+    position: relative;
+    margin-top: -250px;
+    z-index: 2;
+  }
+
+  .wave2, .wave5 {
+    position: absolute;
+    margin-top: -215px;
+    z-index: 1;
+  }
+
+  .wave3 { display: none;}
+
+  svg {
+    height: 500px;
+    width: 100%;
+  }
+}
+
 /**
  * Screen: lg
  */
@@ -172,9 +182,6 @@ footer {
  */
 
 @media screen and (min-width: $on-laptop) {
-  .intro {
-    min-height: 810px;
-  }
 }
 
 /**
