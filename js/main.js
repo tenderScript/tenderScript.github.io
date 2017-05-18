@@ -1,1 +1,1 @@
-console.log(currentPage == "http://localhost:4000/");
+console.log(currentPage);
