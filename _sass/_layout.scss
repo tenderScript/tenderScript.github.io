@@ -164,6 +164,8 @@
 
 .page-content {
     //padding: $spacing-unit 0;
+    position: relative;
+    z-index: 2;
 }
 
 .page-section {
