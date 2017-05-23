@@ -1,17 +1,20 @@
 /**
- * Home styles
+ * Site styles
  */
 
 nav {
   @include gradient(#1f1f35, #2E2E50);
+
   font-weight: 300;
   padding: $spacing-unit;
 
-  * {
-    display: inline-block;
-  }
+
+  * { display: inline-block; }
 
   .nav-left {
+    position: relative;
+    z-index: 2;
+
     img { width: 60px; }
 
     h2 {
@@ -21,16 +24,22 @@ nav {
   }
 
   .nav-right {
+    position: relative;
     float: right;
     margin-top: $spacing-unit / 2;
+    z-index: 2;
   }
 
+  .nav-items {
+    li {
+      margin-left: $spacing-unit / 2;
+      margin-right: $spacing-unit / 2;
+    }
+  }
 }
 
-.nav-items {
-  img {
-    max-height: 17px;
-  }
+.nav-social {
+  img { max-height: 17px; }
 
   li {
     margin: 1em;
@@ -39,15 +48,25 @@ nav {
     display: inline;
     text-decoration: none;
 
-    &:hover {
-      opacity: 1;
-    }
+    &:hover { opacity: 1; }
   }
 }
 
-.post-header {
-  @include strong-text;
+.intro-waves, .footer-waves, .default-waves {
+  svg {
+    height: 500px;
+    width: 100%;
+  }
 }
+
+.wave-cover {
+  position: relative;
+  width: 100%;
+  background: $background-color;
+  z-index: 3;
+}
+
+.post-header { @include strong-text; }
 
 .post-list {
   @include flexcenter;
@@ -59,15 +78,9 @@ nav {
     max-width: 30%;
     overflow: hidden;
 
-    a {
-      &:hover {
-        text-decoration: none;
-      }
-    }
+    a { &:hover { text-decoration: none; } }
 
-    .post-image {
-      border-bottom: 1px solid #00E5FF;
-    }
+    .post-image { border-bottom: 1px solid #00E5FF; }
 
     .post-details {
       padding: .5em 0 .5em 1em;
@@ -80,37 +93,25 @@ nav {
   }
 }
 
-.process-list {
-  @include flexcenter;
+.default-waves {
+  position: relative;
+  z-index: 1;
 
-  .process-item {
-    height: 250px;
-    //@include spacing-lg;
-    margin: $spacing-unit auto $spacing-unit auto;
 
-    .process-title {
-      margin-top: $spacing-unit / 3;
-      margin-bottom: $spacing-unit;
-    }
 
-    img {
-      height: 50px;
-    }
-
-    li {
-      list-style: none;
-      margin-bottom: $spacing-unit / 2;
-    }
+  .wave-cover {
+    height: 400px;
+    margin-bottom: -500px;
   }
-}
+  //
+  // .wave1 { margin-top: -500px; }
+  // .wave2 { margin-bottom: -110px; }
+  // .wave3 { margin-bottom: -500px; }
 
-.about-home {
-  @include flex;
 
-  .bio, .profile {
-    @include spacing-md;
-    width: 50%;
-  }
+    .wave1 { margin-top: -500px; }
+    .wave2 { margin-bottom: -110px; }
+    .wave3 { margin-bottom: -500px; }
 }
 
 footer {
@@ -134,37 +135,26 @@ footer {
       margin-bottom: -75px;
     }
   }
-}
 
+  .footer-waves {
+    .wave-cover {
+      height: 160px;
+    }
 
-.footer-waves {
-  .wave-cover {
-    position: relative;
-    height: 160px;
-    width: 100%;
-    background: $background-color;
-    z-index: 3;
-  }
+    .wave1, .wave4 {
+      position: relative;
+      margin-top: -250px;
+      z-index: 2;
+    }
 
-  .wave1, .wave4 {
-    position: relative;
-    margin-top: -250px;
-    z-index: 2;
-  }
-
-  .wave2, .wave5 {
-    position: absolute;
-    margin-top: -215px;
-    z-index: 1;
-  }
-
-  .wave3 { display: none;}
-
-  svg {
-    height: 500px;
-    width: 100%;
+    .wave2, .wave5 {
+      position: absolute;
+      margin-top: -215px;
+      z-index: 1;
+    }
   }
 }
+
 
 /**
  * Screen: lg
