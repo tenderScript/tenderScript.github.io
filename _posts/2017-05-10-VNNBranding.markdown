@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "VNN Branding"
-date:   2017-03-29 12:00:00 -0500
-categories: UX + UI Design
+date:   2017-05-10 12:00:00 -0500
+categories: UX/UI &nbsp; Design
 image: /../images/posts/vnn-branding/post-vnn-branding.png
 permalink: /vnn-branding/
 ---

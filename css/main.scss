@@ -37,6 +37,7 @@ $text-sm:          .80em;
 $text-xs:          .65em;
 
 .muted           { opacity: 0.5; }
+.text-center     { text-align: center; }
 .text-inactive   { color: $text-light; }
 .text-italic     { font-style: italic; }
 .text-bolder     { font-weight: 700; }

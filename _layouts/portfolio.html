@@ -1,22 +1,25 @@
 ---
 layout: default
 ---
-<section class="page-section">
-  <h2 class="page-heading"><span>Recent Work</span></h2>
-  {{ content }}
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post-block">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <div class="post-image">
-            <img src="{{ post.image }}">
-          </div>
-          <div class="post-details">
-            <h4 class="post-title">{{ post.title | escape }}</h4>
-            <label class="post-meta">{{ post.categories }}</label>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+
+<div class="wrapper">
+  <section class="page-section">
+    <h2 class="page-heading"><span>Recent Work</span></h2>
+    {{ content }}
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post-block">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <div class="post-image">
+              <img src="{{ post.image }}">
+            </div>
+            <div class="post-details">
+              <h4 class="post-title">{{ post.title | escape }}</h4>
+              <label class="post-meta">{{ post.categories }}</label>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

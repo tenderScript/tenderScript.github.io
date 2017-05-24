@@ -2,6 +2,8 @@
  * Site styles
  */
 
+
+
 nav {
   @include gradient(#1f1f35, #2E2E50);
 
@@ -64,33 +66,6 @@ nav {
   width: 100%;
   background: $background-color;
   z-index: 3;
-}
-
-.post-header { @include strong-text; }
-
-.post-list {
-  @include flexcenter;
-
-  .post-block {
-    @include card;
-    @include spacing-sm;
-    display: inline-block;
-    max-width: 30%;
-    overflow: hidden;
-
-    a { &:hover { text-decoration: none; } }
-
-    .post-image { border-bottom: 1px solid #00E5FF; }
-
-    .post-details {
-      padding: .5em 0 .5em 1em;
-
-      .post-title {
-        @include strong-text;
-        margin-bottom: -5px;
-      }
-    }
-  }
 }
 
 .default-waves {
@@ -159,6 +134,16 @@ footer {
   .wrapper {
     max-width: -webkit-calc(1000px - (#{$spacing-unit} * 2)); //og = 800px
     max-width:         calc(1000px - (#{$spacing-unit} * 2)); //og = 800px
+  }
+
+  .post-content {
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: $spacing-unit / 6;
+      max-width: -webkit-calc(1000px - (#{$spacing-unit} * 8));
+      max-width:         calc(1000px - (#{$spacing-unit} * 8));
+    }
   }
 }
 
