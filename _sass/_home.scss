@@ -84,8 +84,7 @@
   @include flexcenter;
 
   .process-item {
-    height: 250px;
-    //@include spacing-lg;
+    min-height: 400px;
     margin: $spacing-unit auto $spacing-unit auto;
 
     .process-title {

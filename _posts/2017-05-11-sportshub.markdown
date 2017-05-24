@@ -1,24 +1,18 @@
 ---
 layout: post
 title:  "Sports Hub"
-date:   2017-03-29 12:00:00 -0500
-categories: UX + UI Design
+date:   2017-05-11 12:00:00 -0500
+categories: UX/UI &nbsp; Design
 image: /../images/posts/sports-hub/post-sportshub.png
 permalink: /sports-hub/
+client: "VNN"
+role: "Design Lead"
+problem: "Low customer engagement, high bounce rates."
+solution: "Create a new platform for VNN’s partners fixing usability issues, add mobile support, relieve technical debt, add features to streamline content creation."
+preview: /../images/posts/sports-hub/devices.png
 ---
 
-**Client:** VNN
-
-**Role:** Design Lead
-
-**Problem:** Low customer engagement, high bounce rates.  
-
-**Solution:** Create a new platform for VNN’s partners fixing usability issues, add mobile support, relieve technical debt, add features to streamline content creation.
-
-![Mockup](/../images/posts/sports-hub/devices.png)
-
-
-<table class="post-content-section">
+<table class="post-content-section-title">
     <tr>
         <td>
         <p><strong>Research & Discovery</strong></p>
@@ -26,11 +20,9 @@ permalink: /sports-hub/
         </td>
     </tr>
 </table>
-
-**Discovery**
-
-Discovery research was split between design and product management. We started interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents.
-
+<br>
+<br>
+<br>
 
 
 **Customer Research**
@@ -39,15 +31,21 @@ We frequently heard from Athletic Directors about their difficulty communicating
 
 ![Persona1](/../images/posts/sports-hub/th/th-persona1.png)
 ![Persona2](/../images/posts/sports-hub/th/th-persona2.png)
+<br>
+<br>
+<br>
+
 
 **Evaluation**
 
 The original product contained many features needed to solve our user’s problems, but suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
 
 ![Evaluation](/../images/posts/sports-hub/th/th-evaluation.png)
+<br>
+<br>
 
 
-<table class="post-content-section">
+<table class="post-content-section-title">
     <tr>
         <td>
         <p><strong>Planning</strong></p>
@@ -55,7 +53,9 @@ The original product contained many features needed to solve our user’s proble
         </td>
     </tr>
 </table>
-
+<br>
+<br>
+<br>
 
 
 **Suggested Sitemap & User-flows**
@@ -64,6 +64,9 @@ The original product contained many features needed to solve our user’s proble
 ![Userflow1](/../images/posts/sports-hub/th/th-userflow1.png)
 ![Userflow2](/../images/posts/sports-hub/th/th-userflow2.png)
 ![Userflow3](/../images/posts/sports-hub/th/th-userflow3.png)
+<br>
+<br>
+<br>
 
 
 **Wireframes**
@@ -73,10 +76,12 @@ To address the usability issues, we built a prototype for testing that lead us t
 ![wireframe1](/../images/posts/sports-hub/th/th-wireframe1.png)
 ![wireframe2](/../images/posts/sports-hub/th/th-wireframe2.png)
 ![wireframe3](/../images/posts/sports-hub/th/th-wireframe3.png)
+<br>
+<br>
+<br>
 
 
-
-<table class="post-content-section">
+<table class="post-content-section-title">
     <tr>
         <td>
         <p><strong>Implementation</strong></p>
@@ -86,57 +91,92 @@ To address the usability issues, we built a prototype for testing that lead us t
 </table>
 
 
-
 **Design Guide**
 To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like google’s material design and atomic design methodology.
+<br>
+<br>
+<br>
 
 
 **Atoms**
 The most basic pieces of the site that contain no value on their own.
 ![atom1](/../images/posts/sports-hub/th/th-atom1.png)
 ![atom2](/../images/posts/sports-hub/th/th-atom2.png)
+<br>
+<br>
+<br>
+
 
 **Molecules**
 Composed of atoms, but contain values that are lost without context.
 ![Molecule1](/../images/posts/sports-hub/th/th-molecule1.png)
 ![Molecule2](/../images/posts/sports-hub/th/th-molecule2.png)
+<br>
+<br>
+<br>
+
 
 **Organisms**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
 ![Organism1](/../images/posts/sports-hub/th/th-organism1.png)
 ![Organism2](/../images/posts/sports-hub/th/th-organism2.png)
-
+<br>
+<br>
+<br>
 
 
 ![Desktop Mockups](/../images/posts/sports-hub/th/th-desk.png)
 ![Mobile Mockups](/../images/posts/sports-hub/th/th-mobile.png)
-
+<br>
+<br>
+<br>
 
 
 **Capturing 1700+ Unique Brands**
 
 Maintaining the integrity of the school’s branding, while using a single ruleset for the product turned out to be incredibly difficult. With the added requirements of accessiblity, our problem was that the schools all had such different color palettes to work with. The original product had the luxury of being built manualy as schools joined the network, however for Sports Hub there was the combination of the migration to the new platform, as well as adding new partners.
-
+<br>
+<br>
+<br>
 
 
 **Theme Logic**
 
 I learned not every palette could use the exact same theme logic, but discovered that almost every school could fall into 1 of three basic types. During the setup (or migration) of the site Athletic DIrectors would select their school colors from here, we could ditermine what ruleset would best accompany the selections they made.
+<br>
+<br>
+<br>
+
 
 **Light**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
 ![Light Theme](/../images/posts/sports-hub/th/th-light.png)
+<br>
+<br>
+<br>
+
 
 **Two Color**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
 ![Two Color Theme](/../images/posts/sports-hub/th/th-twocolor.png)
+<br>
+<br>
+<br>
+
 
 **Dark**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
 ![Dark Theme](/../images/posts/sports-hub/th/th-dark.png)
+<br>
+<br>
+<br>
 
+![Dark Theme](/../images/posts/sports-hub/th/th-altcolors.png)
+<br>
+<br>
+<br>
 
-<table class="post-content-section">
+<table class="post-content-section-title">
     <tr>
         <td>
         <p><strong>Release</strong></p>
@@ -144,11 +184,17 @@ Composed of Atoms and Molecules, Organisms are blocks of content that make up a 
         </td>
     </tr>
 </table>
+<br>
+<br>
+<br>
 
 
-![Dark Theme](/../images/posts/sports-hub/th/th-altcolors.png)
+
 
 
 **Summary**
 
 The release of the product sparked sales in regions the company hasnt been able to access before. Customer feedback lead to further discovery for accessability as well localization, and customization. The product remains to be activly developed as our customer base grew. Shortly after the first release of beta, we aggressivly planned feature sets for the 2.1 release to come before migration.
+<br>
+<br>
+<br>

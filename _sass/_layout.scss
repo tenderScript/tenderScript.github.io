@@ -193,8 +193,36 @@
 
 
 /**
- * Post content
+ * Posts
  */
+
+ .post-header { @include strong-text; }
+
+ .post-list {
+   @include flexcenter;
+
+   .post-block {
+     @include card;
+     @include spacing-sm;
+     display: inline-block;
+     max-width: 30%;
+     overflow: hidden;
+
+     a { &:hover { text-decoration: none; } }
+
+     .post-image { border-bottom: 1px solid #00E5FF; }
+
+     .post-details {
+       padding: .5em 0 .5em 1em;
+
+       .post-title {
+         @include strong-text;
+         margin-bottom: -5px;
+       }
+     }
+   }
+ }
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -213,10 +241,6 @@
     display: block;
 }
 
-
-/**
- * Posts
- */
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -227,39 +251,55 @@
     }
 }
 
-.post-content {
-  margin-bottom: $spacing-unit;
+.post {
+  .post-details {
+    float: left;
+    width: 49%;
+  }
+
+  .post-preview {
+    float: left;
+    width: 49%;
+  }
+
+  .post-content {
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+      font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+      @include media-query($on-laptop) {
+          font-size: 28px;
+      }
     }
 
     h3 {
-        font-size: 26px;
+      font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+      @include media-query($on-laptop) {
+          font-size: 22px;
+      }
     }
 
     h4 {
-        font-size: 20px;
+      font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+      @include media-query($on-laptop) {
+          font-size: 18px;
+      }
     }
+  }
 }
 
-.post-content-section {
-  color: #ffffff;
-  height: 355px;
+.post-content-section-title {
   position: relative;
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 2;
+  height: 355px;
   width: 100%;
+  color: #ffffff;
   background-image: url("/../images/waves-mid-flat.svg");
   background-repeat: repeat-x;
+
 }

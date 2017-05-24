@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Web Banners"
-date:   2017-03-29 12:00:00 -0500
-categories: Visual Design
+date:   2017-05-09 12:00:00 -0500
+categories: Visual &nbsp; Design
 image: /../images/posts/web-banners/post-web-banners.png
 permalink: /web-banners/
 ---
