@@ -2,16 +2,6 @@
  * Homepage styles
  */
 
-/**
- * --------
- * Positioning
- * Box-model
- * Typography
- * Visual
- * Misc
- * --------
-*/
-
  .intro {
    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
    background: -webkit-linear-gradient(top, #2E2E50, #1f1f35);
@@ -101,14 +91,6 @@
   }
 }
 
-.home-about {
-  @include flex;
-
-  .bio, .profile {
-    @include spacing-md;
-    width: 50%;
-  }
-}
 
 /**
  * Screen: lg
