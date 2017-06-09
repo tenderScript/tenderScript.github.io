@@ -2,7 +2,19 @@
  * About styles
  */
 
+ .about {
+   @include flex;
 
+   .bio, .photo { @include spacing-md; }
+
+   .bio {
+     width: 60%;
+   }
+
+   .photo {
+     width: auto;
+   }
+ }
 
 /**
  * Screen: lg
