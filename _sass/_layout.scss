@@ -202,13 +202,13 @@
    @include flexcenter;
 
    .post-block {
-     @include card;
      @include spacing-sm;
-     display: inline-block;
+     @include card;
+     @include transition-all;
+     display: inline;
+     position: relative;
      max-width: 30%;
      overflow: hidden;
-
-     a { &:hover { text-decoration: none; } }
 
      .post-image { border-bottom: 1px solid #00E5FF; }
 
