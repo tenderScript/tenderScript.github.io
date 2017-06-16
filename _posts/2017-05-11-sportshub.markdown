@@ -13,13 +13,16 @@ preview: /../images/posts/sports-hub/devices.png
 ---
 
 <table class="post-content-section-title">
-    <tr>
-        <td>
-        <p><strong>Research & Discovery</strong></p>
-        <p>Reaserch and discovery was split between design and product management. We started interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents. </p>
-        </td>
-    </tr>
+  <tr>
+    <td>
+      <p class="section-title">Discovery & Research</p>
+    </td>
+  </tr>
 </table>
+
+**Research**
+
+Research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents.
 <br>
 <br>
 <br>
@@ -43,16 +46,21 @@ The original product contained many features needed to solve our user’s proble
 ![Evaluation](/../images/posts/sports-hub/th/th-evaluation.png)
 <br>
 <br>
+<br>
 
 
 <table class="post-content-section-title">
-    <tr>
-        <td>
-        <p><strong>Planning</strong></p>
-        <p>After discovery and user research, all pages of the existing product were outlined for evaluation. We identified existing issues with the product’s structure before addressing the usability concerns.</p>
-        </td>
-    </tr>
+  <tr>
+    <td>
+      <p class="section-title">Planning</p>
+    </td>
+  </tr>
 </table>
+
+
+**First Steps**
+
+After discovery and user research, all pages of the existing product were outlined for evaluation. We identified existing issues with the product’s structure before addressing the usability concerns.
 <br>
 <br>
 <br>
@@ -82,14 +90,19 @@ To address the usability issues, we built a prototype for testing that lead us t
 
 
 <table class="post-content-section-title">
-    <tr>
-        <td>
-        <p><strong>Implementation</strong></p>
-        <p>After testing the prototype, it was time to create the visuals to be used for Sports Hub. We needed flexible theming options for VNN’s partners, but the product still called for a solid foundation for the visual rules to avoid usability issues.</p>
-        </td>
-    </tr>
+  <tr>
+    <td>
+      <p class="section-title">Implementation</p>
+    </td>
+  </tr>
 </table>
 
+**Implementation**
+
+After testing the prototype, it was time to create the visuals to be used for Sports Hub. We needed flexible theming options for VNN’s partners, but the product still called for a solid foundation for the visual rules to avoid usability issues.
+<br>
+<br>
+<br>
 
 **Design Guide**
 To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like google’s material design and atomic design methodology.
@@ -176,20 +189,22 @@ Composed of Atoms and Molecules, Organisms are blocks of content that make up a 
 <br>
 <br>
 
+
 <table class="post-content-section-title">
-    <tr>
-        <td>
-        <p><strong>Release</strong></p>
-        <p>After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product.</p>
-        </td>
-    </tr>
+  <tr>
+    <td>
+      <p class="section-title">Release & Iteration</p>
+    </td>
+  </tr>
 </table>
+
+
+**Testing**
+
+After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product.
 <br>
 <br>
 <br>
-
-
-
 
 
 **Summary**
