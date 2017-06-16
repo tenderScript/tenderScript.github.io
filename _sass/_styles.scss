@@ -2,11 +2,8 @@
  * Site styles
  */
 
-
-
 nav {
-  @include gradient(#1f1f35, #2E2E50);
-
+  @include gradient(#2E2E50, #1f1f35);
   font-weight: 300;
   padding: $spacing-unit;
 
@@ -71,7 +68,7 @@ nav {
 .default-waves {
   position: relative;
   margin-bottom: -450px;
-  background: #2E2E50;
+  background: #1f1f35;
   z-index: 1;
 
   .wave-cover {
@@ -108,6 +105,7 @@ footer {
 
   .footer-waves {
     .wave-cover {
+      margin-top: -75px;
       height: 160px;
     }
 

@@ -196,29 +196,47 @@
  * Posts
  */
 
- .post-header { @include strong-text; }
+ .post-header {
+   @include strong-text;
+   margin-top: $spacing-unit;
+   margin-bottom: $spacing-unit;
+ }
 
  .post-list {
    @include flexcenter;
 
-   .post-block {
+   .post-block, .post-more {
      @include spacing-sm;
      @include card;
      @include transition-all;
      display: inline;
      position: relative;
-     max-width: 30%;
+     z-index: 5;
      overflow: hidden;
 
      .post-image { border-bottom: 1px solid #00E5FF; }
+     .post-title { @include strong-text; }
+   }
+
+   .post-block {
+     max-width: 30%;
 
      .post-details {
        padding: .5em 0 .5em 1em;
 
        .post-title {
-         @include strong-text;
          margin-bottom: -5px;
        }
+     }
+   }
+
+   .post-more {
+     max-width: 17%;
+
+     .post-details {
+       padding: .15em 0 .15em .5em;
+       white-space: nowrap;
+       text-overflow: ellipsis;
      }
    }
  }
@@ -239,10 +257,6 @@
 
 .post-link {
     display: block;
-}
-
-.post-header {
-    margin-bottom: $spacing-unit;
 }
 
 .post-title {
@@ -294,12 +308,25 @@
 
 .post-content-section-title {
   position: relative;
-  margin-top: $spacing-unit * 2;
-  margin-bottom: $spacing-unit * 2;
+  margin-top: $spacing-unit * 4;
+  margin-bottom: $spacing-unit * 4;
   height: 355px;
   width: 100%;
   color: #ffffff;
   background-image: url("/../images/waves-mid-flat.svg");
   background-repeat: repeat-x;
 
+  .section-title {
+    font-size: $text-xxl;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.vnn-brand {
+  margin-bottom: -180px;
+  z-index: -1;
+  background-image: url("/../images/vnn-bg.png");
+  height: 400px;
 }
