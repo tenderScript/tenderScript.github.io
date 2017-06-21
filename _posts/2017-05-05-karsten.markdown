@@ -4,5 +4,11 @@ title:  "Karsten Construction"
 date:   2017-05-05 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/karsten/post-karsten.png
+permalink: /karsten/
+client: "Karsten Construction LLC"
+role: "Visual Design & Front-end Development"
+problem: "No Website"
+solution: "Make Website."
+preview: /../images/posts/sports-hub/devices.png
 ---
-Banners
+Karsten Construction
