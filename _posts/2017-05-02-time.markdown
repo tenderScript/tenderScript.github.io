@@ -4,5 +4,11 @@ title:  "Time Redesign"
 date:   2017-05-02 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/time/post-time.png
+permalink: /time/
+client: "-"
+role: "-"
+problem: "-"
+solution: "-"
+preview: /../images/posts/sports-hub/devices.png
 ---
 Copy Me!
