@@ -108,4 +108,18 @@
  * Screen: sm
  */
 
- @media screen and (min-width: $on-palm) {}
+ @media screen and (max-width: $on-palm) {
+   .intro {
+     .intro-nav {
+       margin-top: 2em;
+       margin-bottom: 2em;
+
+       li {
+         border: 1px solid $brand-color;
+         border-radius: 3px;
+         padding: .5em .75em .5em .75em;
+         margin: .25em;
+       }
+     }
+   }
+ }

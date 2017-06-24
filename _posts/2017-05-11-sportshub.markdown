@@ -2,9 +2,10 @@
 layout: post
 title:  "Sports Hub"
 date:   2017-05-11 12:00:00 -0500
-categories: UX/UI &nbsp; Design
+categories: "UX &nbsp; Design"
 image: /../images/posts/sports-hub/post-sportshub.png
 permalink: /sports-hub/
+details: "set1"
 client: "VNN"
 role: "Design Lead"
 problem: "Low customer engagement, high bounce rates."
