@@ -165,7 +165,7 @@
 .page-content {
     //padding: $spacing-unit 0;
     position: relative;
-    z-index: 2;
+    z-index: 4;
 }
 
 .page-section {
@@ -205,7 +205,7 @@
  .post-list {
    @include flexcenter;
 
-   .post-block, .post-more {
+   .post-block, .more-block {
      @include spacing-sm;
      @include card;
      @include transition-all;
@@ -214,26 +214,26 @@
      z-index: 5;
      overflow: hidden;
 
-     .post-image { border-bottom: 1px solid #00E5FF; }
-     .post-title { @include strong-text; }
+     .more-image { border-bottom: 1px solid #00E5FF; }
+     .block-title { @include strong-text; }
    }
 
    .post-block {
      max-width: 30%;
 
-     .post-details {
+     .block-details {
        padding: .5em 0 .5em 1em;
 
-       .post-title {
+       .block-title {
          margin-bottom: -5px;
        }
      }
    }
 
-   .post-more {
+   .more-block {
      max-width: 17%;
 
-     .post-details {
+     .more-details {
        padding: .15em 0 .15em .5em;
        white-space: nowrap;
        text-overflow: ellipsis;
@@ -251,18 +251,18 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 .post-link {
-    display: block;
+  display: block;
 }
 
 .post-title {
-    @include media-query($on-laptop) {
-      font-size: 36px;
-    }
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
 }
 
 .post {
@@ -330,3 +330,32 @@
   background-image: url("/../images/vnn-bg.png");
   height: 400px;
 }
+
+
+/**
+ * Screen: md
+ */
+
+@media screen and (max-width: $on-laptop) {}
+
+/**
+ * Screen: sm
+ */
+
+ @media screen and (max-width: $on-palm) {
+   .post-block { min-width: 45%; }
+ }
+
+ /**
+  * Screen: md
+  */
+
+ @media screen and (min-width: $on-laptop) {}
+
+ /**
+  * Screen: sm
+  */
+
+  @media screen and (max-width: $on-xs) {
+    .post-block { min-width: 75%; }
+  }

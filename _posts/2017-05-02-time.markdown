@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Time Redesign"
+title:  "Time Concept"
 date:   2017-05-02 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/time/post-time.png

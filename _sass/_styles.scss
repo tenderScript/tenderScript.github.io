@@ -149,13 +149,10 @@ footer {
  * Screen: md
  */
 
-@media screen and (min-width: $on-laptop) {
-}
+@media screen and (min-width: $on-laptop) {}
 
 /**
  * Screen: sm
  */
 
- @media screen and (min-width: $on-palm) {
-
- }
+ @media screen and (min-width: $on-palm) {}

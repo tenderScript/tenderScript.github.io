@@ -1,9 +1,27 @@
 ---
 layout: post
-title:  "Misc"
+title:  "Misc Projects"
 date:   2017-05-03 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/misc/post-misc.png
 permalink: /misc/
+details: "set2"
+about: Some of my early projects focused on creating brands to capture a company's message. Some of the clients I’ve worked with range from real estate agencies, small businesses, sports teams, and startups.
+preview: /../images/posts/misc/preview-misc.png
 ---
-Copy Me!
+
+**Logo Design**
+
+Although graphic design was never my intended career path, the clients it lead me to were mostly small business owners and while working for VNN, I to created assets for our partner schools.
+
+![Modpack Logo](/../images/posts/misc/modpack-logo.png)
+
+![Pitstop BBQ Logo](/../images/posts/misc/pitstop-logo.png)
+
+![Wildcat Logo](/../images/posts/misc/wildcats-logo.png)
+
+![Eagle Logo](/../images/posts/misc/eagles-logo.png)
+
+![Chief Logo](/../images/posts/misc/chiefs-logo.png)
+
+![Lion Logo](/../images/posts/misc/lions-logo.png)

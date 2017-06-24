@@ -2,11 +2,12 @@
 layout: post
 title:  "VNN Branding"
 date:   2017-05-10 12:00:00 -0500
-categories: UX/UI &nbsp; Design
+categories: Visual &nbsp; Design
 image: /../images/posts/vnn-branding/post-vnn-branding.png
 permalink: /vnn-branding/
+details: "set1"
 client: "VNN"
-role: "Design"
+role: "Visual Design"
 problem: "VNN’s lacked identity as a company, and the current site no longer met the needs of a growing company."
 solution: "Create a new home for VNN for centralized contact with the community, and customers."
 preview: /../images/posts/vnn-branding/preview-vnn-branding.png
