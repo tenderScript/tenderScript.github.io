@@ -6,9 +6,9 @@ categories: Visual &nbsp; Design
 image: /../images/posts/karsten/post-karsten.png
 permalink: /karsten/
 client: "Karsten Construction LLC"
-role: "Visual Design & Front-end Development"
+role: "Visual Design"
 problem: "No Website"
 solution: "Make Website."
-preview: /../images/posts/sports-hub/devices.png
+preview: /../images/posts/karsten/preview-karsten.png
 ---
 Karsten Construction
