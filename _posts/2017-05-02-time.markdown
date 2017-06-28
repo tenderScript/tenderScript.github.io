@@ -5,10 +5,8 @@ date:   2017-05-02 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/time/post-time.png
 permalink: /time/
-client: "-"
-role: "-"
-problem: "-"
-solution: "-"
-preview: /../images/posts/sports-hub/devices.png
+details: "set2"
+about: "I created this concept with the intention of strengthening my process for web based projects. At the time I had noticed some usability issues I wanted to solve, and I thought it may be a helpful exercise during a brief slow period in my career."
+preview: /../images/posts/time/preview-time.png
 ---
 Copy Me!
