@@ -21,30 +21,30 @@ preview: /../images/posts/sports-hub/devices.png
   </tr>
 </table>
 
-**Research**
+### Customer Research
 
 Research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents.
 <br>
 <br>
+**Communication Issues:** We frequently heard from Athletic Directors about their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
 <br>
-
-
-**Customer Research**
-
-We frequently heard from Athletic Directors about their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
-
+<br>
 ![Persona1](/../images/posts/sports-hub/th/th-persona1.png)
 ![Persona2](/../images/posts/sports-hub/th/th-persona2.png)
 <br>
 <br>
 <br>
+<br>
 
 
-**Evaluation**
+### Heuristic Evaluation
 
-The original product contained many features needed to solve our user’s problems, but suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
-
+The original suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
+We identified existing issues with the product’s structure before addressing any usability concerns.
+<br>
+<br>
 ![Evaluation](/../images/posts/sports-hub/th/th-evaluation.png)
+<br>
 <br>
 <br>
 <br>
@@ -59,17 +59,15 @@ The original product contained many features needed to solve our user’s proble
 </table>
 
 
-**First Steps**
+### Suggested Architecture
 
-After discovery and user research, all pages of the existing product were outlined for evaluation. We identified existing issues with the product’s structure before addressing the usability concerns.
-<br>
-<br>
-<br>
-
-
-**Suggested Sitemap & User-flows**
-
+**Sitemap**
 ![Site map displaying all the pages of the new website](/../images/posts/sports-hub/full/full-sitemap.png)
+<br>
+<br>
+
+**Userflows**
+
 ![Userflow1](/../images/posts/sports-hub/th/th-userflow1.png)
 ![Userflow2](/../images/posts/sports-hub/th/th-userflow2.png)
 ![Userflow3](/../images/posts/sports-hub/th/th-userflow3.png)
@@ -78,10 +76,11 @@ After discovery and user research, all pages of the existing product were outlin
 <br>
 
 
-**Wireframes**
+### Wireframes & Prototypes
 
-To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our prototype. During user research we learned that some of our users only concern was a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by team. Our usability tests showed users still preferred the existing products route to teams, however the real issue was that the team filtering happening in the wrong place.  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
-
+To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our initial designs. During user research we learned that some of our users only concern was a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by team. **Our usability tests revealed that users still preferred the existing products route to teams, however the real issue was that team filtering was happening in the wrong place.**  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
+<br>
+<br>
 ![wireframe1](/../images/posts/sports-hub/th/th-wireframe1.png)
 ![wireframe2](/../images/posts/sports-hub/th/th-wireframe2.png)
 ![wireframe3](/../images/posts/sports-hub/th/th-wireframe3.png)
@@ -98,10 +97,9 @@ To address the usability issues, we built a prototype for testing that lead us t
   </tr>
 </table>
 
-**Implementation**
+### Visual Design
 
 After testing the prototype, it was time to create the visuals to be used for Sports Hub. We needed flexible theming options for VNN’s partners, but the product still called for a solid foundation for the visual rules to avoid usability issues.
-<br>
 <br>
 <br>
 

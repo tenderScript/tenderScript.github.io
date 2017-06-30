@@ -21,16 +21,16 @@ $grey-color:       #757575;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-xs:            430px;
+$on-xs:            400px;
 $on-palm:          660px;
-$on-laptop:        800px;
-$on-display:       1200px;
+$on-laptop:        860px;
+$on-display:       1260px;
 
 
 // My styles
 $text-dark:        #424242;
 $text-light:       #bdbdbd;
-$text-xxl:         1.75em;
+$text-xxl:         2em;
 $text-xl:          1.5em;
 $text-lg:          1.25em;
 $text-reg:         1em;
