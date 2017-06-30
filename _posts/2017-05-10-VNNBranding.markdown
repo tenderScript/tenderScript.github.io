@@ -22,14 +22,14 @@ preview: /../images/posts/vnn-branding/preview-vnn-branding.png
   </tr>
 </table>
 
-**Company**
+### Company
 
 VNN originally started as a blogging service catering to athletic communities in the midwest. It soon grew into a product company that managed school media, schedules, registration, and communication.
 <br>
 <br>
 <br>
 
-**Past Iterations**
+### Past Iterations
 
 The original site was dated, and no longer served the needs of a growing company. It lacked information about new services, and left users without an idea of who VNN was.
 
@@ -51,6 +51,6 @@ The original site was dated, and no longer served the needs of a growing company
 <br>
 <br>
 
-**Summary**
+### Summary
 
-The original product contained many features needed to solve our user’s problems, but suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
+The original suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
