@@ -103,7 +103,7 @@ After testing the prototype, it was time to create the visuals to be used for Sp
 <br>
 <br>
 
-**Design Guide**
+**Atomic Design Guide**
 To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like google’s material design and atomic design methodology.
 <br>
 <br>
@@ -112,6 +112,7 @@ To make sure the project remained consistent throughout our product iterations, 
 
 **Atoms**
 The most basic pieces of the site that contain no value on their own.
+<br>
 ![atom1](/../images/posts/sports-hub/th/th-atom1.png)
 ![atom2](/../images/posts/sports-hub/th/th-atom2.png)
 <br>
@@ -121,6 +122,7 @@ The most basic pieces of the site that contain no value on their own.
 
 **Molecules**
 Composed of atoms, but contain values that are lost without context.
+<br>
 ![Molecule1](/../images/posts/sports-hub/th/th-molecule1.png)
 ![Molecule2](/../images/posts/sports-hub/th/th-molecule2.png)
 <br>
@@ -130,6 +132,7 @@ Composed of atoms, but contain values that are lost without context.
 
 **Organisms**
 Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
+<br>
 ![Organism1](/../images/posts/sports-hub/th/th-organism1.png)
 ![Organism2](/../images/posts/sports-hub/th/th-organism2.png)
 <br>
