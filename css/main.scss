@@ -53,27 +53,6 @@ $text-xs:          .65em;
   }
 }
 
-
-@mixin strong-text {
-  color: $text-dark;
-  font-weight: 600;
-  letter-spacing: .1pt;
-}
-
-@mixin card {
-  background: #ffffff;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
-  border-radius: 4px;
-
-  &:hover {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.025);
-    -ms-transform: scale(1.025);
-    -moz-transform: scale(1.025);
-    transform: scale(1.025);
-  }
-}
-
 @mixin flexcenter {
   display: -webkit-flex;
   -webkit-justify-content: center;
@@ -102,6 +81,31 @@ $text-xs:          .65em;
 
 @mixin spacing-sm {
   margin: $spacing-unit / 3;
+}
+
+@mixin strong-text {
+  color: $text-dark;
+  font-weight: 600;
+  letter-spacing: .1pt;
+}
+
+@mixin card {
+  background: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  border-radius: 4px;
+
+  &:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    transform: scale(1.025);
+  }
+}
+
+@mixin button-ghost {
+  border: 1px solid $brand-color;
+  border-radius: 3px;
 }
 
 @mixin gradient($startColor, $endColor) {
@@ -143,7 +147,5 @@ $text-xs:          .65em;
         "syntax-highlighting",
         "styles",
         "home",
-        "portfolio",
-        "about",
         "contact"
 ;

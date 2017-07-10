@@ -195,7 +195,6 @@
 /**
  * Posts
  */
-
  .post-header {
    @include strong-text;
    margin-top: $spacing-unit;
@@ -325,18 +324,14 @@
 /**
  * Screen: sm
  */
-
  @media screen and (min-width: $on-palm) {
-   .post-list {
-     .post-block { max-width: 45%; }
-   }
+   .post-list { .post-block { max-width: 45%; } }
  }
 
 
- /**
-  * Screen: md
-  */
-
+/**
+ * Screen: md
+ */
  @media screen and (min-width: $on-laptop) {
    .wrapper {
      max-width: -webkit-calc(1000px - (#{$spacing-unit} * 2)); //og = 800px
@@ -366,18 +361,29 @@
      }
    }
 
-   .post-list {
-     .post-block { width: 30%; }
+   .post-list { .post-block { width: 30%; } }
+
+   .about {
+     @include flex;
+
+     .bio, .photo { @include spacing-md; }
+
+     .bio {
+       width: 60%;
+     }
+
+     .photo, .photo-mobile {
+       width: auto;
+     }
+
+     .photo-mobile { display: none; }
    }
  }
 
 
-  /**
-   * Screen: lg
-   */
-
+/**
+ * Screen: lg
+ */
   @media screen and (min-width: $on-display) {
-    .post-list {
-      .post-block { max-width: 22%; }
-    }
+    .post-list { .post-block { max-width: 22%; } }
   }
