@@ -6,6 +6,17 @@ categories: Visual &nbsp; Design
 image: /../images/posts/web-banners/post-web-banners.png
 permalink: /web-banners/
 details: "set2"
-preview: /../images/posts/sports-hub/devices.png
+about: During my internship at VNN, my primary responsibility was the creating banners and other advertising assets for our partner schools and advertisers.
+preview: /../images/posts/web-banners/preview-web-banners.png.png
 ---
-Banners
+
+<br>
+<br>
+**Gold Banners**
+![AdvertisingExample1](/../images/posts/web-banners/banner-example1.png)
+
+<br>
+<br>
+
+**Title Banners**
+![AdvertisingExample2](/../images/posts/web-banners/banner-example2.png)

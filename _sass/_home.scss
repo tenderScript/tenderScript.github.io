@@ -1,18 +1,18 @@
 /**
  * Homepage styles
  */
-
  .intro {
-   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
-   background: -webkit-linear-gradient(top, #2E2E50, #1f1f35);
-   background: -moz-linear-gradient(top, #2E2E50, #1f1f35);
-   background: -ms-linear-gradient(top, #2E2E50, #1f1f35);
-   background: -o-linear-gradient(top, #2E2E50, #1f1f35);
-   background: linear-gradient(top, #2E2E50, #1f1f35);
    margin: 0 0 0 0;
    position: relative;
    text-align: center;
-   z-index: 1;
+   //background-color: #1f1f35;
+
+   //  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
+   //  background: -webkit-linear-gradient(top, #2E2E50, #1f1f35);
+   //  background: -moz-linear-gradient(top, #2E2E50, #1f1f35);
+   //  background: -ms-linear-gradient(top, #2E2E50, #1f1f35);
+   //  background: -o-linear-gradient(top, #2E2E50, #1f1f35);
+   //  background: linear-gradient(top, #2E2E50, #1f1f35);
 
    .logo-intro {
      img {
@@ -102,8 +102,8 @@
 
       li {
         @include button-ghost;
-        padding: .5em .75em .5em .75em;
-        margin: .25em;
+        padding: .4em .6em .4em .6em;
+        margin: .2em;
       }
     }
   }
@@ -121,15 +121,16 @@
 @media screen and (min-width: $on-palm) {
   .process-list {
     text-align: left;
-
     .process-item { width: 45%;}
   }
 }
 
+/**
+ * Screen: lg
+ */
 @media screen and (min-width: $on-laptop) {
   .process-list {
     text-align: left;
-
     .process-item { width: auto;}
   }
 }
