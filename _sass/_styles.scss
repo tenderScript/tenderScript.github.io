@@ -1,6 +1,9 @@
 /**
  * Site styles
  */
+
+.parallax-mirror { max-height: 99%;}
+
 nav {
   @include gradient(#2E2E50, #1f1f35);
   font-weight: 300;
@@ -76,7 +79,6 @@ nav {
 
 footer {
   @include gradient(#1f1f35, #2E2E50);
-  //height: 675px;
   margin: 0 0 0 0;
   position: relative;
   text-align: center;
