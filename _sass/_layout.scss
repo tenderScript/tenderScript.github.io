@@ -361,7 +361,7 @@
      }
    }
 
-   .post-list { .post-block { width: 30%; } }
+   .post-list { .post-block { width: 20%; } }
 
    .about {
      @include flex;
@@ -385,5 +385,5 @@
  * Screen: lg
  */
   @media screen and (min-width: $on-display) {
-    .post-list { .post-block { max-width: 22%; } }
+    .post-list { .post-block { width: 22%; } }
   }

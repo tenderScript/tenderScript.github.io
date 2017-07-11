@@ -81,7 +81,7 @@ We realized this project would need a lot of different pieces, and different fac
 <table class="post-content-section-title">
   <tr>
     <td>
-      <p class="section-title">Implement & Iteration</p>
+      <p class="section-title">Implementation</p>
     </td>
   </tr>
 </table>
@@ -99,7 +99,7 @@ We realized this project would need a lot of different pieces, and different fac
 <br>
 <br>
 
-**Releases & Iteration**
+**Iteration**
 
 Content text.
 <br>
