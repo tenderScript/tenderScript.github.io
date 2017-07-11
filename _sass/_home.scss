@@ -107,4 +107,29 @@
       }
     }
   }
+
+  .process-list {
+    text-align: center;
+
+    .process-item { width: 85%;}
+  }
+}
+
+/**
+ * Screen: md
+ */
+@media screen and (min-width: $on-palm) {
+  .process-list {
+    text-align: left;
+
+    .process-item { width: 45%;}
+  }
+}
+
+@media screen and (min-width: $on-laptop) {
+  .process-list {
+    text-align: left;
+
+    .process-item { width: auto;}
+  }
 }
