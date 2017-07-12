@@ -230,10 +230,7 @@
    }
 
    .more-block {
-     max-width: 17%;
-
      .more-details {
-       padding: .15em 0 .15em .5em;
        white-space: nowrap;
        text-overflow: ellipsis;
      }
@@ -326,6 +323,20 @@
  */
  @media screen and (min-width: $on-palm) {
    .post-list { .post-block { max-width: 45%; } }
+
+   .nav-main {
+     padding-left: $spacing-unit;
+     padding-right: $spacing-unit;
+     padding-top: $spacing-unit / 2;
+   }
+
+   .more-block {
+     max-width: 17%;
+
+     .more-details {
+       padding: .15em 0 .15em .5em;
+     }
+   }
  }
 
 
@@ -378,7 +389,7 @@
 
      .photo-mobile { display: none; }
    }
- }
+}
 
 
 /**

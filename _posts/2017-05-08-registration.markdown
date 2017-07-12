@@ -20,9 +20,9 @@ preview: /../images/posts/registration/preview-registration.png
   </tr>
 </table>
 
-### Forms & Rosters
+### Signatures & Rosters
 
-When we first started talking to our partner athletic directors, we discovered that they would often have to pressure their staff into collecting parent signatures on any waivers or forms required by the school's conference. Also, we found that collecting signatures was the staff's main way to update the yearly roster changes. Entering player information manually from a pile of forms created extra work for staff and caused some of VNN's programs to be neglected. Schools trying to build a web presence were not only trying to keep up with their normal demand, the underlying problems they had weren't being solved by the existing tools they had.
+We first started by interviewing our partner athletic directors, we discovered that they would often have to pressure the staff into collecting parent signatures for any waivers or forms required by the school's conference. We also found that collecting signatures was the school's main way to update yearly roster changes. Entering player information manually from a pile of forms created extra work, and caused some of VNN's other products to be neglected. Our partner schools came to us trying to build a web presence, but now the additional problems they had were no longer being solved by the tools given to them.
 <br>
 <br>
 <br>
@@ -30,19 +30,15 @@ When we first started talking to our partner athletic directors, we discovered t
 
 ### Requirements
 
-Saying that each school district had different requirements would be an understatement. I quickly realized while working at VNN that all of our products need some flexibility in at least one, or two areas. In order for this product to be successful we needed documents requiring signatures, and payments to be configureable.
+Almost every school district had a different set requirements when registering students for programs/teams. I realized that although many of our partner schools asked for the same thing, our products needed to be somewhat configureable to meet all their needs. In order for this product to be successful, flexibility was needed for what documents/forms should be included, signed, and how payments were collected.
 <br>
 <br>
 
-**Collecting Information**
+**Forms & Fees**
 
-Getting the required basic information *e.g. emergency contacts, payment methods...*  from users was a pretty standard task. However the documents, once uploaded, needed to be attached on either a school wide or per program basis.
-<br>
-<br>
+Talking to schools about their current method of assigning forms to programs and fee collection, revealed that they were all in on of two categories. Those that needed to be attached season wide, or those attached on a per program basis.
 
-**Program Fees**
-
-Adjusting and adding prices to the athletic programs needed to work in a similar fashion as attaching documents. About half our schools used a flat fee for all programs, while other schools registration fees were different for each program. After setting up, we discovered the commonality of fees being waved because of financial aid, and other student programs.
+![Original Staff Personae](/../images/posts/registration/reg-personae.png)
 <br>
 <br>
 <br>
@@ -55,25 +51,25 @@ Adjusting and adding prices to the athletic programs needed to work in a similar
   </tr>
 </table>
 
-### Bringing it together
+### Serving Schools & Communities.
 
-We realized this project would need a lot of different pieces, and different faces depending on the user type. AD's needed to be able to manage program documents, payments and fees. According to the the regulations set by all the different conferences across the us, we needed a system that was functionally simmilar, and flexible to meet the needs of the school.
+VNN's Registration product served two types of users. Staff needing to manage their school's program documents, payments, and fees. And parents/guardians reviewing, paying, and signing up for the programs. Regulations set by our school's different conferences meant that our system needed to be functionally similar, yet flexible to meet the all the different needs.
 <br>
 <br>
 <br>
 
-
-**Userflows**
-![Registration Userflows](/../images/posts/registration/userflow-ad.png)
-<!--[Registration Userflows](/../images/posts/registration/userflow-parent.png)-->
+**Staff Userflow**
+![Original Staff Userflows](/../images/posts/registration/userflow-ad.png)
 <br>
 <br>
 
+**Parent/Guardian Userflow**
+![Original Parent/Guardian Userflow](/../images/posts/registration/userflow-parent.png)
+<br>
+<br>
 
-**Prototypes**
-![registration prototype1](/../images/posts/registration/wire-add-doc.png)
-
-![registration prototype2](/../images/posts/registration/wire-add-program.png)
+**Wireframes & Prototypes**
+![registration prototype2](/../images/posts/registration/reg-wire.png)
 <br>
 <br>
 <br>
@@ -87,20 +83,26 @@ We realized this project would need a lot of different pieces, and different fac
 </table>
 
 ### Visual Design
+VNN's product suite design language had been been clearly defined before registration's development began. However this was one of the first projects I was able to contribute on as a designer, so I felt that even though visual design was a minor chore in the process, it was still an important lesson for me to understand where branding, development, and clear communication all met.
+<br>
+<br>
 
 **Registration**
-![registration prototype2](/../images/posts/registration/r-esign-desk.png)
+
+![registration prototype2](/../images/posts/registration/reg-design.png)
 <br>
 <br>
 
 **Registration Manager**
-![registration prototype2](/../images/posts/registration/rm-program-list.png)
-![registration prototype2](/../images/posts/registration/r-esign-desk.png)
+
+![Registration Manager Design Examples](/../images/posts/registration/reg-man-designs.png)
+<br>
 <br>
 <br>
 
-**Iteration**
+**Summary**
 
-Content text.
+Before the initial release, we learned how to improve our payment management system. Some schools wanted to use the product as a free service to their communities and had no need to monetize the process. After completion, VNN's Registration product gave schools a convenient way to update team rosters to keep their content fresh and organized. The content being generated by registration also helped by laying groundwork for VNN's future line of product releases.
+<br>
 <br>
 <br>

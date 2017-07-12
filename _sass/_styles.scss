@@ -7,7 +7,7 @@
 nav {
   @include gradient(#2E2E50, #1f1f35);
   font-weight: 300;
-  padding: $spacing-unit;
+
 
   * { display: inline-block; }
 
@@ -72,9 +72,9 @@ nav {
     margin-top: -300px;
   }
 
-  .wave1 { margin-top: -480px; }
+  .wave1 { margin-top: -470px; }
   .wave2 { margin-top: -480px; margin-bottom: -40px; }
-  .wave3 { margin-top: -75px;  margin-bottom: -60px; }
+  .wave3 { margin-top: -40px;  margin-bottom: -60px; }
 }
 
 footer {
@@ -155,6 +155,14 @@ footer {
       }
     }
   }
+
+  .more-block {
+    max-width: 40%;
+
+    .more-details {
+      padding: .15em 0 .15em .5em;
+    }
+  }
 }
 
 /**
@@ -168,6 +176,7 @@ footer {
   .photo-mobile {
     margin-top: -60px;
     margin-bottom: 30px;
+
     img {
       width: 100%;
     }
