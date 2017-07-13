@@ -1,5 +1,4 @@
 // Animations
-var currentPage = document.URL;
 var winWidth = document.documentElement.clientWidth;
 var winPlus = winWidth + 200;
 var startPath = "M-10 250 C 0 250, 1 250, 300 250 S 600 250, " + winWidth + " 250";

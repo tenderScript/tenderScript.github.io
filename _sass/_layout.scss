@@ -377,17 +377,27 @@
    .about {
      @include flex;
 
-     .bio, .photo { @include spacing-md; }
+     .bio, .about-photo { @include spacing-md; }
 
      .bio {
        width: 60%;
      }
 
-     .photo, .photo-mobile {
+     .about-photo, .about-photo-mobile {
        width: auto;
+       max-width: 360px;
      }
 
-     .photo-mobile { display: none; }
+     .about-thumbs {
+       margin-top: $spacing-unit / 3;
+
+       .th {
+         width: 83px;
+         border-radius: 2px;
+       }
+     }
+
+     .about-photo-mobile { display: none; }
    }
 }
 
