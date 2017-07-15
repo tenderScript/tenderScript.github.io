@@ -50,15 +50,42 @@ layout: default
 
     <div class="about-photo">
       <img src="/../images/about/tony.png" alt="Tony Ellison Photo">
-      <div class="about-thumbs">
-        <a class="ps-item" href="#" onclick="return false;" data-parent="aboutItems" data-index-number="0">
-          <img class="th" src="/../images/about/th-fam.png" alt="family thumbnail">
-          <img class="th" src="/../images/about/th-telly.png" alt="rockies thumbnail">
-          <img class="th" src="/../images/about/th-dominica.png" alt="dominica thumbnail">
-          <img class="th" src="/../images/about/th-art.png" alt="tony's artwork thumbnail">
-        </a>
+      <!-- Gallery -->
+      <div class="about-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="/../images/about/fam.jpg" itemprop="contentUrl" data-size="1421x911">
+              <img src="/../images/about/th-fam.png" itemprop="thumbnail" alt="family photo thumbnail" />
+          </a>
+          <figcaption itemprop="caption description">Right side: top is Henry, bottom left is Lily, and bottom right is Bagheera.</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="/../images/about/telly.jpg" itemprop="contentUrl" data-size="1600x1364">
+              <img src="/../images/about/th-telly.png" itemprop="thumbnail" alt="Teluride trip thumbnail" />
+          </a>
+          <figcaption itemprop="caption description">Hiking and mountian biking in Teluride, Co.</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="/../images/about/dominica.jpg" itemprop="contentUrl" data-size="1600x1600">
+              <img src="/../images/about/th-dominica.png" itemprop="thumbnail" alt="Dominica trip thumbnail" />
+          </a>
+          <figcaption itemprop="caption description">A few photos from my recent trip to dominica.</figcaption>
+        </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="/../images/about/art.jpg" itemprop="contentUrl" data-size="2390x1227">
+              <img src="/../images/about/th-art.png" itemprop="thumbnail" alt="tony's artwork thumbnail" />
+          </a>
+          <figcaption itemprop="caption description">Some of my paintings. Done with pencil, ink, and watercolor</figcaption>
+        </figure>
+
       </div>
+      <!-- End Gallery -->
     </div>
+
+
 
   </section>
 </div>

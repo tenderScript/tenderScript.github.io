@@ -2,7 +2,32 @@
  * Site styles
  */
 
-.parallax-mirror { max-height: 99%;}
+.btn {
+  padding-top: 7px;
+  padding-bottom: 6px;
+  min-width: 100px;
+  font-size: $text-sm;
+  color: $text-dark;
+  text-align: center;
+  border: 1px solid #BDBDBD;
+  border-radius: 15px;
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #e2dee8 110%);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    color: $brand-color;
+    border: 1px solid #a5a5a5;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-image: linear-gradient(0deg, #995CFF 0%, #6E36CB 100%);
+    border: 1px solid #3C0696;
+    border-radius: 100px;
+  }
+}
 
 nav {
   @include gradient(#2E2E50, #1f1f35);
@@ -165,13 +190,17 @@ footer {
   }
 }
 
+.about-gallery {
+  figcaption { display: none; }
+}
+
 /**
  * Screen: md
  */
 @media screen and (max-width: $on-laptop){
 
   .post-header { text-align: center; }
-  .photo { display: none; }
+  .about-photo { display: none; }
 
   .photo-mobile {
     margin-top: -60px;

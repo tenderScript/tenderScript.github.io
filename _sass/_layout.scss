@@ -383,17 +383,24 @@
        width: 60%;
      }
 
-     .about-photo, .about-photo-mobile {
+     .about-photos {
        width: auto;
        max-width: 360px;
      }
 
-     .about-thumbs {
+     .about-gallery {
        margin-top: $spacing-unit / 3;
+       white-space: nowrap;
 
-       .th {
-         width: 83px;
-         border-radius: 2px;
+       figure {
+         display: inline-block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 85px;
+
+         img {
+           border-radius: 2px;
+         }
        }
      }
 
