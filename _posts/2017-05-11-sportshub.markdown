@@ -139,8 +139,21 @@ Composed of Atoms and Molecules, Organisms are blocks of content that make up a 
 <br>
 <br>
 
+<table class="post-content-section-title sh-post">
+  <tr>
+    <td>
+      <p class="section-title">Final Designs</p>
+    </td>
+  </tr>
+</table>
 
-![Desktop Mockups](/../images/posts/sports-hub/th/th-desk.png)
+
+![Desktop Mockups](/../images/posts/sports-hub/desktop-mockups.png)
+<br>
+<br>
+<br>
+
+
 ![Mobile Mockups](/../images/posts/sports-hub/th/th-mobile.png)
 <br>
 <br>
@@ -201,17 +214,9 @@ Composed of Atoms and Molecules, Organisms are blocks of content that make up a 
 </table>
 
 
-**Testing**
-
-After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product.
-<br>
-<br>
-<br>
-
-
 **Summary**
 
-The release of the product sparked sales in regions the company hasnt been able to access before. Customer feedback lead to further discovery for accessability as well localization, and customization. The product remains to be activly developed as our customer base grew. Shortly after the first release of beta, we aggressivly planned feature sets for the 2.1 release to come before migration.
+After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product. The release of the product sparked sales in regions the company hasnt been able to access before. Customer feedback lead to further discovery for accessability as well localization, and customization. The product remains to be activly developed as our customer base grew. Shortly after the first release of beta, we aggressivly planned feature sets for the 2.1 release to come before migration.
 <br>
 <br>
 <br>
