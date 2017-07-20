@@ -25,21 +25,20 @@ preview: /../images/posts/profesh/preview-profesh.png
 
 While interviewing our partner athletic directors for some of our other products, we heard a reoccurring theme of how season scheduling between schools in the conference was a mess. Athletic directors would have to meet, share their schedules, and try to work out a schedule that would work for all of them. I learned about all the other scheduling products out there that they tried, but the programs only scratched the surface of their actual needs.
 
-![Persona 1](/../images/posts/profesh/Persona.png)
+
+![Persona 1](/../images/posts/profesh/profesh-persona1.png)
+![Persona 1](/../images/posts/profesh/profesh-persona2.png)
 <br>
 <br>
 <br>
 
-
-**Research**
-
-After gaining a clear understanding of school's problems, we had to break down the needs of every sport and team event our system supported to meet their scheduling needs.
-
-![Sport Information Breakdown](/../images/posts/profesh/vnn-oldsite.png)
 
 **Past Iterations**
 
-![Old Product Sitemap](/../images/posts/profesh/vnn-oldsite.png)
+After gaining a clear understanding of school's problems, we had to break down the needs of every sport and team event our system supported to meet their scheduling needs.
+
+
+![Old Product Sitemap](/../images/posts/profesh/profesh-sitemaps.png)
 <br>
 <br>
 <br>
@@ -47,26 +46,24 @@ After gaining a clear understanding of school's problems, we had to break down t
 
 ### Planning
 
-This project was done in conjunction with the new sportshub.
+This project was first started behind the scenes while one of our <a href="/sportshub/">other products</a> was in development. VNN's Professional suite was indented to be a supporting product, allowing content to be created easier, and a more robust tool to be used between districts.
+<br>
+<br>
 
 
 **Initial Wireframes & Sketches**
 
-![Whiteboard Sketches](/../images/posts/profesh/Persona.png)
-
+![Whiteboard Sketches](/../images/posts/profesh/profesh-whiteboard-sketches.png)
+<br>
+<br>
+<br>
 
 **Prototype**
+
 We planned to replace our old product's workflow with in context editing for admins. with district calendar collaboration between vnn's partners
 
-![Home](/../images/posts/profesh/profesh-home.png)
+![Home](/../images/posts/profesh/profesh-prototype.png)
 
-![Calendar](/../images/posts/profesh/profesh-calendar.png)
-
-![Adding Multiple Events Step 1](/../images/posts/profesh/profesh-add-multi-1.png)
-
-![Adding Multiple Events Step 2](/../images/posts/profesh/profesh-add-multi-2.png)
-
-![Adding Multiple Events Step 3](/../images/posts/profesh/profesh-add-multi-3.png)
 <br>
 <br>
 <br>
@@ -74,7 +71,11 @@ We planned to replace our old product's workflow with in context editing for adm
 
 ## Implementation
 
--fresh visual design/ui
+The goal of professional suite's design was to stay true to the existing products, while enhancing the visual clarity of the UI. With VNN's products, we found that the existing visual direction was strong, but was under utilized. With only minor changes there could be massive improvements to the products functionality. Some
+<br>
+<br>
+
+![Professional Suite Design Examples](/../images/posts/profesh/profesh-designs.png)
 <br>
 <br>
 <br>

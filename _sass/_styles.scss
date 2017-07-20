@@ -102,6 +102,10 @@ nav {
   .wave3 { margin-top: -40px;  margin-bottom: -60px; }
 }
 
+.post-content {
+  img { border-radius: 2px; }
+}
+
 footer {
   @include gradient(#1f1f35, #2E2E50);
   margin: 0 0 0 0;
