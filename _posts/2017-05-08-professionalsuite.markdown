@@ -10,7 +10,7 @@ client: "Varsity News Network"
 role: "UX Design"
 problem: "VNN’s applications didn't support the demands of the staff running the schools programs. Especially when it came to scheduling, and event management."
 solution: "Give Athletic Directors and their assistants a place that easily allowed them to create, manage, and share important schedule information."
-preview: /../images/posts/profesh/preview-profesh.png
+preview: /../images/posts/profesh/profesh-preview.png
 ---
 <table class="post-content-section-title">
   <tr>
@@ -44,23 +44,34 @@ After gaining a clear understanding of school's problems, we had to break down t
 <br>
 
 
-### Planning
-
-This project was first started behind the scenes while one of our <a href="/sportshub/">other products</a> was in development. VNN's Professional suite was indented to be a supporting product, allowing content to be created easier, and a more robust tool to be used between districts.
-<br>
-<br>
+<table class="post-content-section-title">
+  <tr>
+    <td>
+      <p class="section-title">Planning</p>
+    </td>
+  </tr>
+</table>
 
 
 **Initial Wireframes & Sketches**
+
+This project was first started behind the scenes while one of our <a href="/sports-hub/">other products</a> was in development. VNN's Professional suite was indented to be a supporting product that allowed easier creation of content. Our schools primary source of content revolved around vnn's event model, which were we started the first phases of planning
+<br>
+<br>
+
 
 ![Whiteboard Sketches](/../images/posts/profesh/profesh-whiteboard-sketches.png)
 <br>
 <br>
 <br>
 
+
 **Prototype**
 
-We planned to replace our old product's workflow with in context editing for admins. with district calendar collaboration between vnn's partners
+The plan was to replace the old product's workflow with by editing events in the context they were being displayed. Not only had we seen staff attempt to do this during some previous prototype testing, it seemed to be a more intuitive approach than the existing product.
+<br>
+<br>
+
 
 ![Home](/../images/posts/profesh/profesh-prototype.png)
 
@@ -68,10 +79,18 @@ We planned to replace our old product's workflow with in context editing for adm
 <br>
 <br>
 
+<table class="post-content-section-title">
+  <tr>
+    <td>
+      <p class="section-title">Implementation</p>
+    </td>
+  </tr>
+</table>
 
-## Implementation
 
-The goal of professional suite's design was to stay true to the existing products, while enhancing the visual clarity of the UI. With VNN's products, we found that the existing visual direction was strong, but was under utilized. With only minor changes there could be massive improvements to the products functionality. Some
+**Design**
+
+Although portions of professional suite were to be done in context of the <a href="/sports-hub/">public facing product</a>, the design goals were to stay true to the existing products, while enhancing the visual clarity of the UI. The existing visual direction was strong, but it was being under utilized. With minor changes we believed we could make improvements to the products functionality.
 <br>
 <br>
 
@@ -80,9 +99,9 @@ The goal of professional suite's design was to stay true to the existing product
 <br>
 <br>
 
-**Summary**
+**Iteration**
 
-Content text.
+Professional suite was showing promise as an efficient event creation tool, however other pieces required to paint the full picture are in stages I cannot show. The state of this project may provide you with more questions than answers, but I felt it was important to include one of the first projects I participated in that made use of the full ux process. The motivations behind professional suite were to solve a common problem between all the schools, but additional phases of testing and iteration still need to be completed.
 <br>
 <br>
 <br>
