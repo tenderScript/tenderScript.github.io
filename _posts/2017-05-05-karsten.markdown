@@ -5,10 +5,8 @@ date:   2017-05-05 12:00:00 -0500
 categories: Visual &nbsp; Design
 image: /../images/posts/karsten/post-karsten.png
 permalink: /karsten/
-client: "Karsten Construction LLC"
-role: "Visual Design"
-problem: "No Website"
-solution: "Make Website."
+details: "set2"
+about: Karsten Construction was a local business with the need of branding and
 preview: /../images/posts/karsten/preview-karsten.png
 ---
 Karsten Construction
