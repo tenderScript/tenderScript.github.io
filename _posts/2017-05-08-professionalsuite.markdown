@@ -26,8 +26,7 @@ preview: /../images/posts/profesh/profesh-preview.png
 While interviewing our partner athletic directors for some of our other products, we heard a reoccurring theme of how season scheduling between schools in the conference was a mess. Athletic directors would have to meet, share their schedules, and try to work out a schedule that would work for all of them. I learned about all the other scheduling products out there that they tried, but the programs only scratched the surface of their actual needs.
 
 
-![Persona 1](/../images/posts/profesh/profesh-persona1.png)
-![Persona 1](/../images/posts/profesh/profesh-persona2.png)
+![Personae](/../images/posts/profesh/profesh-personas.png)
 <br>
 <br>
 <br>

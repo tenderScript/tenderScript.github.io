@@ -34,11 +34,13 @@ Almost every school district had a different set requirements when registering s
 <br>
 <br>
 
+![Original Staff Personae](/../images/posts/registration/reg-personae.png)
+<br>
+<br>
+
 **Forms & Fees**
 
 Talking to schools about their current method of assigning forms to programs and fee collection, revealed that they were all in on of two categories. Those that needed to be attached season wide, or those attached on a per program basis.
-
-![Original Staff Personae](/../images/posts/registration/reg-personae.png)
 <br>
 <br>
 <br>
@@ -68,8 +70,15 @@ VNN's Registration product served two types of users. Staff needing to manage th
 <br>
 <br>
 
-**Wireframes & Prototypes**
-![registration prototype2](/../images/posts/registration/reg-wire.png)
+**Wireframes**
+![registration prototype2](/../images/posts/registration/reg-wires.png)
+<br>
+<br>
+<br>
+
+
+**Prototype**
+![registration prototype2](/../images/posts/registration/reg-prototype.png)
 <br>
 <br>
 <br>

@@ -29,7 +29,7 @@ VNN originally started as a blogging service catering to athletic communities in
 <br>
 <br>
 
-### Past Iterations
+**Past Iterations**
 
 The original site was dated, and no longer served the needs of a growing company. It lacked information about new services, and left users without an idea of who VNN was.
 
@@ -37,6 +37,14 @@ The original site was dated, and no longer served the needs of a growing company
 <br>
 <br>
 <br>
+
+**Sketches/Wireframes**
+
+![vnnbranding](/../images/posts/vnn-branding/vnn-wires.png)
+<br>
+<br>
+<br>
+
 
 <table class="post-content-section-title vnn-brand">
   <tr>

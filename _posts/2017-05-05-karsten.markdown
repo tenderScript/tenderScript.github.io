@@ -6,7 +6,25 @@ categories: Visual &nbsp; Design
 image: /../images/posts/karsten/post-karsten.png
 permalink: /karsten/
 details: "set2"
-about: Karsten Construction was a local business with the need of branding and
+about: Karsten Construction was a local business known for remodeling bathrooms, kitchens, and other indoor area. They needed a place to highlight the services they offer, and a place to connect with new clients.
 preview: /../images/posts/karsten/preview-karsten.png
 ---
-Karsten Construction
+
+**Design Examples**
+
+![Home](/../images/posts/karsten/karsten-devices.png)
+<br>
+<br>
+<br>
+
+
+![Home Page](/../images/posts/karsten/karsten-home.png)
+<br>
+<br>
+<br>
+
+
+![Device Mockup](/../images/posts/karsten/karsten-photos.png)
+<br>
+<br>
+<br>

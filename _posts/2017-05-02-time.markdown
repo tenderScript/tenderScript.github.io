@@ -10,7 +10,13 @@ about: "I created this concept with the intention of strengthening my process fo
 preview: /../images/posts/time/preview-time.png
 ---
 
-**Design Examples**
+**Sketches**
+![Planning Sketches](/../images/posts/time/time-sketches.png)
+<br>
+<br>
+<br>
+
+**Visual Designs**
 
 ![Desktop Homepage](/../images/posts/time/time-home.png)
 <br>
