@@ -168,9 +168,9 @@ To make sure the project remained consistent throughout our product iterations, 
 <br>
 
 
-**Capturing 1700+ Unique Brands**
+### Capturing 1700+ Unique Brands
 
-Maintaining the integrity of the school’s branding, while using a single ruleset for the product turned out to be incredibly difficult. With the added requirements of accessiblity, our problem was that the schools all had such different color palettes to work with. The original product had the luxury of being built manualy as schools joined the network, however for Sports Hub there was the combination of the migration to the new platform, as well as adding new partners.
+Maintaining the integrity of the school’s branding, while using a single ruleset for the product turned out to be incredibly difficult. Accessibility was a goal for Sports Hub, but all the schools had such different color palettes to work with. The original product had the luxury of being built manually as schools partnered with VNN, however for Sports Hub we had to worry about a combination of migrating the existing partners to the new platform, as well as adding new ones.
 <br>
 <br>
 <br>
@@ -178,7 +178,7 @@ Maintaining the integrity of the school’s branding, while using a single rules
 
 **Theme Logic**
 
-I learned not every palette could use the exact same theme logic, but discovered that almost every school could fall into 1 of three basic types. During the setup (or migration) of the site Athletic DIrectors would select their school colors from here, we could determine what ruleset would best accompany the selections they made.
+Not every palette would be able to use the exact same ruleset, but I discovered that every school could fall into one of three basic types. During the setup of the site, new Athletic Directors would select their school colors and existing users would have their current colors pulled from our database. From there we could determine what ruleset would best accompany their selections.
 <br>
 <br>
 <br>
@@ -242,7 +242,7 @@ I learned not every palette could use the exact same theme logic, but discovered
 
 **Summary**
 
-After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product. The release of the product sparked sales in regions the company hasnt been able to access before. Customer feedback lead to further discovery for accessability as well localization, and customization. The product remains to be activly developed as our customer base grew. Shortly after the first release of beta, we aggressivly planned feature sets for the 2.1 release to come before migration.
+After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product. The release of the product sparked sales in regions the company hasn't been able to access before. Customer feedback lead to further discovery for accessibility, and localization settings. The product is still actively being developed as VNN's customer base grows. Shortly after the first release of beta, we aggressively planned feature sets for the 2.1 release to come before migration.
 <br>
 <br>
 <br>

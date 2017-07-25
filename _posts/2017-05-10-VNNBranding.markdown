@@ -61,4 +61,4 @@ The original site was dated, and no longer served the needs of a growing company
 
 ### Summary
 
-The original suffered from long load times, unintuitive navigation, and lack of mobile support. Combination of these issues left many users getting lost, or only engaging with one piece of VNN’s suite of products.
+The original suffered from irrelevant navigation options, broken mobile support, and no easy method of adding content. The combination of these issues left many users leaving confused, or only engaging with one piece of VNN’s suite of products. VNN has now grown nation wide, and has successfully been able to bridge into a more mature brand, and organization.
