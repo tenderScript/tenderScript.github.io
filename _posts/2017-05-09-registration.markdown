@@ -8,7 +8,7 @@ permalink: /vnn-registration/
 details: "set1"
 client: "VNN"
 role: "Supporting Designer"
-problem: "Athletic Directors needed an efficient way to list students signed up for school programs in the current season."
+problem: "Athletic Directors needed an efficient way to identify what students were signed up for school programs in the current season."
 solution: "Give the parents/guardians a place to signup, and pay required fees for all school programs."
 preview: /../images/posts/registration/preview-registration.png
 ---
@@ -22,7 +22,7 @@ preview: /../images/posts/registration/preview-registration.png
 
 ### Signatures & Rosters
 
-We first started by interviewing our partner athletic directors, we discovered that they would often have to pressure the staff into collecting parent signatures for any waivers or forms required by the school's conference. We also found that collecting signatures was the school's main way to update yearly roster changes. Entering player information manually from a pile of forms created extra work, and caused some of VNN's other products to be neglected. Our partner schools came to us trying to build a web presence, but now the additional problems they had were no longer being solved by the tools given to them.
+When we first started by interviewing VNN's partner athletic directors, we discovered that they would often have to pressure their staff into collecting parent signatures for any waivers or forms required by the school's conference. Also we found that collecting signatures was the school's primary way of updating the yearly roster changes. Entering player information manually from a pile of forms created extra work, and caused some of VNN's other products to be neglected. Our partner schools came to us trying to build a web presence, but now the additional problems they had were no longer being solved by the tools that were given to them.
 <br>
 <br>
 <br>
@@ -30,7 +30,7 @@ We first started by interviewing our partner athletic directors, we discovered t
 
 ### Requirements
 
-Almost every school district had a different set requirements when registering students for programs/teams. I realized that although many of our partner schools asked for the same thing, our products needed to be somewhat configureable to meet all their needs. In order for this product to be successful, flexibility was needed for what documents/forms should be included, signed, and how payments were collected.
+Almost every school district had a different set requirements when it came to registering students for programs/teams. I realized that although many of our partner schools asked for the same thing, our products still needed to be somewhat configureable to meet the needs of the edge case schools. In order for this product to be successful, flexibility was needed for what documents/forms should be included, signed, and how each school was collecting payments.
 <br>
 <br>
 
@@ -40,7 +40,7 @@ Almost every school district had a different set requirements when registering s
 
 **Forms & Fees**
 
-Talking to schools about their current method of assigning forms to programs and fee collection, revealed that they were all in on of two categories. Those that needed to be attached season wide, or those attached on a per program basis.
+Talking to schools about the current method of assigning forms to programs and fee collection, revealed that they all needed to be attached either season wide or attached on a per program basis.
 <br>
 <br>
 <br>
@@ -55,7 +55,7 @@ Talking to schools about their current method of assigning forms to programs and
 
 ### Serving Schools & Communities.
 
-VNN's Registration product served two types of users. Staff needing to manage their school's program documents, payments, and fees. And parents/guardians reviewing, paying, and signing up for the programs. Regulations set by our school's different conferences meant that our system needed to be functionally similar, yet flexible to meet the all the different needs.
+VNN's Registration product served two types of users. Staff needing to manage their school's program documents, payments, and fees. And parents/guardians reviewing, paying, and signing up for the programs. Regulations set by our school's different conferences meant that our system needed to be functionally similar, but flexible to meet their different needs.
 <br>
 <br>
 <br>
@@ -92,7 +92,7 @@ VNN's Registration product served two types of users. Staff needing to manage th
 </table>
 
 ### Visual Design
-VNN's product suite design language had been been clearly defined before registration's development began. However this was one of the first projects I was able to contribute on as a designer, so I felt that even though visual design was a minor chore in the process, it was still an important lesson for me to understand where branding, development, and clear communication all met.
+VNN's product suite design language had been been clearly defined before registration's development began. However this was one of the first projects I was able to contribute on as a designer, so I felt that even though the visual design seemed to be a minor chore in the process, it was still an important lesson to understand where branding, development, and clear communication all met.
 <br>
 <br>
 
