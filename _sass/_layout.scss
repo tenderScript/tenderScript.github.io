@@ -310,6 +310,17 @@
   }
 }
 
+.post-content-image-side {
+  section { display: inline-block; }
+
+  .text {
+    vertical-align: top;
+    width: 54%;
+  }
+
+  .image { width: 45%; }
+}
+
 .vnn-brand {
   margin-bottom: -180px;
   z-index: -1;
@@ -374,7 +385,7 @@
    }
 
    .post-content {
-     h1, h2, h3, h4, h6, h6, p {
+     h1, h2, h3, h4, h6, h6, p, .post-content-image-side {
        margin-left: auto;
        margin-right: auto;
        margin-bottom: $spacing-unit / 6;

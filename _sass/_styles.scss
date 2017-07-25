@@ -103,7 +103,11 @@ nav {
 }
 
 .post-content {
-  img { border-radius: 2px; }
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+  }
 }
 
 footer {

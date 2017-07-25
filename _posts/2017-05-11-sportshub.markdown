@@ -7,9 +7,9 @@ image: /../images/posts/sports-hub/post-sportshub.png
 permalink: /sports-hub/
 details: "set1"
 client: "VNN"
-role: "Design Lead"
+role: "UX Design"
 problem: "Low customer engagement, high bounce rates."
-solution: "Create a new platform for VNN’s partners fixing usability issues, add mobile support, relieve technical debt, add features to streamline content creation."
+solution: "Create a new platform for VNN’s partners that fixes usability issues, adds mobile support, and streamline content creation."
 preview: /../images/posts/sports-hub/devices.png
 ---
 
@@ -23,14 +23,17 @@ preview: /../images/posts/sports-hub/devices.png
 
 ### Customer Research
 
-Research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of coaches, and parents.
+Research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of parents, staff, and coaches.
 <br>
 <br>
-**Communication Issues:** We frequently heard from Athletic Directors about their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
+
+**Communication Issues**
+
+Athletic Directors would often mention their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
 <br>
 <br>
-![Persona1](/../images/posts/sports-hub/th/th-persona1.png)
-![Persona2](/../images/posts/sports-hub/th/th-persona2.png)
+
+![Persona1](/../images/posts/sports-hub/th/th-persona.png)
 <br>
 <br>
 <br>
@@ -59,31 +62,28 @@ We identified existing issues with the product’s structure before addressing a
 </table>
 
 
-### Suggested Architecture
+### Recommended Architecture
 
 **Sitemap**
+
 ![Site map displaying all the pages of the new website](/../images/posts/sports-hub/full/full-sitemap.png)
 <br>
 <br>
 
 **Userflows**
 
-![Userflow1](/../images/posts/sports-hub/th/th-userflow1.png)
-![Userflow2](/../images/posts/sports-hub/th/th-userflow2.png)
-![Userflow3](/../images/posts/sports-hub/th/th-userflow3.png)
+![Userflow1](/../images/posts/sports-hub/th/th-userflows.png)
 <br>
 <br>
 <br>
 
 
-### Wireframes & Prototypes
+### Wireframes & Prototype
 
 To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our initial designs. During user research we learned that some of our users only concern was a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by team. **Our usability tests revealed that users still preferred the existing products route to teams, however the real issue was that team filtering was happening in the wrong place.**  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
 <br>
 <br>
-![wireframe1](/../images/posts/sports-hub/th/th-wireframe1.png)
-![wireframe2](/../images/posts/sports-hub/th/th-wireframe2.png)
-![wireframe3](/../images/posts/sports-hub/th/th-wireframe3.png)
+![wireframe1](/../images/posts/sports-hub/th/th-prototype.png)
 <br>
 <br>
 <br>
@@ -103,38 +103,46 @@ After testing the prototype, it was time to create the visuals to be used for Sp
 <br>
 <br>
 
-**Atomic Design Guide**
+**Atomic Design**
+
 To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like google’s material design and atomic design methodology.
 <br>
 <br>
 <br>
 
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Atoms</strong></p>
+    <p>The most basic pieces of the site that contain no value on their own.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/atoms.png">
+  </section>
+</section>
 
-**Atoms**
-The most basic pieces of the site that contain no value on their own.
-<br>
-![atom1](/../images/posts/sports-hub/th/th-atom1.png)
-![atom2](/../images/posts/sports-hub/th/th-atom2.png)
-<br>
-<br>
-<br>
-
-
-**Molecules**
-Composed of atoms, but contain values that are lost without context.
-<br>
-![Molecule1](/../images/posts/sports-hub/th/th-molecule1.png)
-![Molecule2](/../images/posts/sports-hub/th/th-molecule2.png)
-<br>
-<br>
 <br>
 
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Molecules</strong></p>
+    <p>Composed of atoms, but contain values that are lost without context.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/molecules.png">
+  </section>
+</section>
 
-**Organisms**
-Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
 <br>
-![Organism1](/../images/posts/sports-hub/th/th-organism1.png)
-![Organism2](/../images/posts/sports-hub/th/th-organism2.png)
+
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Organisms</strong></p>
+    <p>Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/organisms.png">
+  </section>
+</section>
 <br>
 <br>
 <br>
@@ -170,36 +178,54 @@ Maintaining the integrity of the school’s branding, while using a single rules
 
 **Theme Logic**
 
-I learned not every palette could use the exact same theme logic, but discovered that almost every school could fall into 1 of three basic types. During the setup (or migration) of the site Athletic DIrectors would select their school colors from here, we could ditermine what ruleset would best accompany the selections they made.
+I learned not every palette could use the exact same theme logic, but discovered that almost every school could fall into 1 of three basic types. During the setup (or migration) of the site Athletic DIrectors would select their school colors from here, we could determine what ruleset would best accompany the selections they made.
 <br>
 <br>
 <br>
 
 
-**Light**
-Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Light Theme](/../images/posts/sports-hub/th/th-light.png)
-<br>
-<br>
-<br>
-
-
-**Two Color**
-Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Two Color Theme](/../images/posts/sports-hub/th/th-twocolor.png)
-<br>
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Light</strong></p>
+    <p>The light theme is selected when the primary color or secondary color set to white.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/th/th-light.png">
+  </section>
+</section>
 <br>
 <br>
 
 
-**Dark**
-Composed of Atoms and Molecules, Organisms are blocks of content that make up a page.
-![Dark Theme](/../images/posts/sports-hub/th/th-dark.png)
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Two Color</strong></p>
+    <p>Selected if neither the primary color or secondary color is white or black.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/th/th-twocolor.png">
+  </section>
+</section>
+<br>
+<br>
+
+
+<section class="post-content-image-side wrapper">
+  <section class="text">
+    <p><strong>Dark</strong></p>
+    <p>The dark theme is selected if the primary color or secondary color is set to black.</p>
+  </section>
+  <section class="image">
+    <img src="/../images/posts/sports-hub/th/th-dark.png">
+  </section>
+</section>
 <br>
 <br>
 <br>
 
-![Dark Theme](/../images/posts/sports-hub/th/th-altcolors.png)
+**Theme Examples**
+
+![Different Colored Themes](/../images/posts/sports-hub/th/th-altcolors.png)
 <br>
 <br>
 <br>
