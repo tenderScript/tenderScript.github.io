@@ -6,7 +6,7 @@ categories: Visual &nbsp; Design
 image: /../images/posts/time/post-time.png
 permalink: /time/
 details: "set2"
-about: "I created this concept with the intention of strengthening my process for a web based projects. I had noticed what I thought were some usability issues I wanted to solve. I thought this would be a useful exercise before working on a similar project."
+about: "I created this concept with the intention of strengthening my process for web based projects. I had noticed what I thought were some usability issues I wanted to solve. I thought this would be a useful exercise before working on a similar project."
 preview: /../images/posts/time/preview-time.png
 ---
 
