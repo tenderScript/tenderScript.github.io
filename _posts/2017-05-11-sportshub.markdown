@@ -6,10 +6,10 @@ categories: "UX &nbsp; Design"
 image: /../images/posts/sports-hub/post-sportshub.png
 permalink: /sports-hub/
 details: "set1"
-client: "VNN"
+client: "Varsity News Network"
 role: "UX Design"
 problem: "Low customer engagement, high bounce rates."
-solution: "Create a new platform for VNN’s partners that fixes usability issues, adds mobile support, and streamline content creation."
+solution: "Create a new platform for VNN’s partners that fix usability issues, adds mobile support, and streamline content creation."
 preview: /../images/posts/sports-hub/devices.png
 ---
 
@@ -23,13 +23,13 @@ preview: /../images/posts/sports-hub/devices.png
 
 ### Customer Research
 
-Research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of parents, staff, and coaches.
+The research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of parents, staff, and coaches.
 <br>
 <br>
 
 **Communication Issues**
 
-Athletic Directors would often mention their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the schools history.
+Athletic Directors would often mention their difficulty communicating seasonal scheduling changes with their communities. Coaches and staff were also suffering from similar issues, as well as the inability to contribute their team’s content to the school's history.
 <br>
 <br>
 
@@ -70,9 +70,9 @@ We identified existing issues with the product’s structure before addressing a
 <br>
 <br>
 
-**Userflows**
+**User flows**
 
-![Userflow1](/../images/posts/sports-hub/th/th-userflows.png)
+![User Flow1](/../images/posts/sports-hub/th/th-userflows.png)
 <br>
 <br>
 <br>
@@ -80,7 +80,7 @@ We identified existing issues with the product’s structure before addressing a
 
 ### Wireframes & Prototype
 
-To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our initial designs. During user research we learned that some of our users only concern was a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by team. **Our usability tests revealed that users still preferred the existing products route to teams, however the real issue was that team filtering was happening in the wrong place.**  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
+To address the usability issues, we built a prototype for testing that lead us to some incorrect solutions in our initial designs. During user research, we learned that some of our users only concern were a few teams per site.  Our initial plan was to add features allowing users to follow and filter content by teams. **Our usability tests revealed that users still preferred the existing product's route to team content. The real issue was team content filtering was happening in the wrong place.**  Filtering was happening by ‘program’ when it needed to happen within the navigation, to a ‘team’ specific portion of the site.
 <br>
 <br>
 ![wireframe1](/../images/posts/sports-hub/th/th-prototype.png)
@@ -105,7 +105,7 @@ After testing the prototype, it was time to create the visuals to be used for Sp
 
 **Atomic Design**
 
-To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like google’s material design and atomic design methodology.
+To make sure the project remained consistent throughout our product iterations, I created visual design documentation for the theme styles to help both existing and future product team members as they build upon the product. These rules borrow heavily from more established design languages, like Google’s material design and atomic design methodology.
 <br>
 <br>
 <br>
@@ -242,7 +242,7 @@ Not every palette would be able to use the exact same ruleset, but I discovered 
 
 **Summary**
 
-After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product. The release of the product sparked sales in regions the company hasn't been able to access before. Customer feedback lead to further discovery for accessibility, and localization settings. The product is still actively being developed as VNN's customer base grows. Shortly after the first release of beta, we aggressively planned feature sets for the 2.1 release to come before migration.
+After the visual design had been completed and tested, Sports Hub was released for a beta period before the content migration allowing user acceptance testing on an actual product. The release of the product sparked sales in regions the company hasn't been able to access before. Customer feedback has lead us to further discovery around their accessibility and localization needs, but the product is still actively being developed as VNN's customer base grows. Shortly after the first release of the beta, we aggressively planned feature sets for the 2.1 release to come before migration.
 <br>
 <br>
 <br>

@@ -6,7 +6,7 @@ categories: Visual &nbsp; Design
 image: /../images/posts/vnn-branding/post-vnn-branding.png
 permalink: /vnn-branding/
 details: "set1"
-client: "VNN"
+client: "Varsity News Network"
 role: "Visual Design"
 problem: "VNN’s lacked identity as a company, and the current site no longer met the needs of a growing company."
 solution: "Create a new home for VNN for centralized contact with the community, and customers."
@@ -24,14 +24,14 @@ preview: /../images/posts/vnn-branding/preview-vnn-branding.png
 
 ### Company
 
-VNN originally started as a blogging service catering to athletic communities in the midwest. It soon grew into a product company that managed school media, schedules, registration, and communication.
+Varsity News Network originally started as a blogging service catering to athletic communities in the midwest. It soon grew into a product company that managed school media, schedules, registration, and communication.
 <br>
 <br>
 <br>
 
 **Past Iterations**
 
-The original site was dated, and no longer served the needs of a growing company. It lacked information about new services, and left users without an idea of who VNN was.
+The original site was dated, and no longer served the needs of a growing company. It lacked information about new services and left users without an idea of who VNN was.
 
 ![vnnbranding](/../images/posts/vnn-branding/vnn-oldsite.png)
 <br>
@@ -61,4 +61,4 @@ The original site was dated, and no longer served the needs of a growing company
 
 ### Summary
 
-The original suffered from irrelevant navigation options, broken mobile support, and no easy method of adding content. The combination of these issues left many users leaving confused, or only engaging with one piece of VNN’s suite of products. VNN has now grown nation wide, and has successfully been able to bridge into a more mature brand, and organization.
+The original suffered from irrelevant navigation options, broken mobile support, and no easy method of adding content. The combination of these issues left many users leaving confused, or only engaging with one piece of VNN’s suite of products. VNN has now grown nation wide and has successfully been able to evolve to a more mature brand and organization.

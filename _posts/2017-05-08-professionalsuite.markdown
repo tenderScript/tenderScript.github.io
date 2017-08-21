@@ -35,7 +35,7 @@ While interviewing our partner athletic directors we heard a reoccurring theme o
 
 **Past Iterations**
 
-I learned about all the other scheduling products out there that had tried, but only ever scratched the surface of the their school's needs. After gaining a clear understanding of other programs issues and our school's needs, we needed to break down the details of every team event our system supported in order to make sure we also didn't fall short of our school's expectations.
+I learned about all the other scheduling products out there that had tried, but only ever scratched the surface of their school's needs. After gaining a clear understanding of other programs issues and our school's needs, we needed to breakdown the details of every team event our system supported in order to make sure we also didn't fall short of our school's expectations.
 
 
 ![Old Product Sitemap](/../images/posts/profesh/profesh-sitemaps.png)
@@ -55,7 +55,7 @@ I learned about all the other scheduling products out there that had tried, but 
 
 **Initial Wireframes & Sketches**
 
-This project was first started behind the scenes while one of our <a href="/sports-hub/">other products</a> was in development. VNN's Professional suite was intended to be a supporting product allowing for easier content creation. Our schools main source of content came from games and tournaments. All of these events revolved around VNN's event model, which were we started our first phases of planning.
+This project was first started behind the scenes while one of our <a href="/sports-hub/">other products</a> was in development. VNN's Professional suite was intended to be a supporting product allowing for easier content creation. Our school's main source of content came from games and tournaments. All of these events revolved around VNN's event model, which were we started our first phases of planning.
 <br>
 <br>
 
@@ -90,7 +90,7 @@ The plan was to replace the old product's workflow with by editing events in the
 
 **Design**
 
-Although portions of professional suite was done in the context of a <a href="/sports-hub/">public facing product</a>, the design goal of the back end was to stay true to the existing product, and enhance the visual clarity of the UI. The existing visual direction was strong, but was being under utilized, and with minor changes I believed I could make improvements to the products functionality.
+Although portions of Professional Suite were done in the context of a <a href="/sports-hub/">public facing product</a>, the design goal of the back end was to stay true to the existing product and enhance the visual clarity of the UI. The existing visual direction was strong but was being underutilized, and with minor changes, I believed I could make improvements to the product's functionality.
 <br>
 <br>
 
@@ -101,7 +101,7 @@ Although portions of professional suite was done in the context of a <a href="/s
 
 **Iteration**
 
-Professional suite was showing promise as an efficient event creation tool, however other pieces required to paint the full picture are in stages I cannot show. The state of this project is incomplete, but I felt it was important to include one of the first projects I participated in that made use of a full UX process. The motivations behind professional suite were to solve a common problem shared by all VNN's partner schools, but before I can say it did, additional phases of testing and iteration still need to be completed.
+Professional Suite was showing promise as an efficient event creation tool, however other pieces required to paint the full picture are in stages I cannot show. The state of this project is incomplete, but I felt it was important to include one of the first projects I participated in that made use of a full UX process. The motivations behind professional suite were to solve a common problem shared by all VNN's partner schools, but before I can say it did, additional phases of testing and iteration still need to be completed.
 <br>
 <br>
 <br>
