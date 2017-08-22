@@ -6,8 +6,8 @@ categories: UX &nbsp; Design
 image: /../images/posts/registration/post-registration.png
 permalink: /vnn-registration/
 details: "set1"
-client: "VNN"
-role: "Supporting Designer"
+client: "Varsity News Network"
+role: "UX Design"
 problem: "Athletic Directors needed an efficient way to identify what students were signed up for school programs in the current season."
 solution: "Give the parents/guardians a place to signup, and pay required fees for all school programs."
 preview: /../images/posts/registration/preview-registration.png
