@@ -435,5 +435,10 @@
  * Screen: lg
  */
   @media screen and (min-width: $on-display) {
-    .post-list { .post-block { width: 22%; } }
+    .post-list {
+      .post-block {
+        width: 22%;
+        max-width: 285px;
+      }
+    }
   }

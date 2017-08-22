@@ -8,7 +8,7 @@ permalink: /vnn-branding/
 details: "set1"
 client: "Varsity News Network"
 role: "Visual Design"
-problem: "VNN’s lacked identity as a company, and the current site no longer met the needs of a growing company."
+problem: "Varsity News Network lacked identity as a company, and the current site no longer met the needs of a growing company."
 solution: "Create a new home for VNN for centralized contact with the community, and customers."
 preview: /../images/posts/vnn-branding/preview-vnn-branding.png
 ---
