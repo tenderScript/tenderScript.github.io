@@ -3,20 +3,20 @@ layout: default
 ---
 
 <div class="wrapper">
-    <h2 class="page-heading"><span>Portfolio</span></h2>
+  <h2 class="page-heading"><span>Portfolio</span></h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-block">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <div class="post-image">
+            <img src="{{ post.image }}">
+          </div>
+          <div class="block-details">
+            <h4 class="block-title">{{ post.title | escape }}</h4>
+            <label class="post-meta">{{ post.categories }}</label>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li class="post-block">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            <div class="post-image">
-              <img src="{{ post.image }}">
-            </div>
-            <div class="block-details">
-              <h4 class="block-title">{{ post.title | escape }}</h4>
-              <label class="post-meta">{{ post.categories }}</label>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
