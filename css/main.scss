@@ -15,9 +15,10 @@ $spacing-unit:     30px;
 
 $text-color:       #61637C; /* main body copy */
 $background-color: #ffffff;
-$brand-color:      #995CFF;
+$background-dark:  #29293C;
+$brand-color:      #8D5FFE;
 
-$grey-color:       #757575;
+$grey-color:       #CFCFD9;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -29,7 +30,7 @@ $on-display:       1260px;
 
 // My styles
 $text-dark:        #61637C; /* this is headers & Htags */
-$text-light:       #bdbdbd;
+$text-light:       #CFCFD9;
 $text-xxl:         2em;
 $text-xl:          1.5em;
 $text-lg:          1.25em;
@@ -90,7 +91,7 @@ $text-xs:          .65em;
 }
 
 @mixin card {
-  background: #ffffff;
+  background: $background-dark;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
   border-radius: 4px;
 

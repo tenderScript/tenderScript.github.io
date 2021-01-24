@@ -3,54 +3,14 @@
  */
  .intro {
    @include gradient(#A884FF, #8D5FFE);
+   position: relative;
    margin: 0 0 0 0;
    height: 485px;
    padding-top: 45px;
-   position: relative;
    text-align: center;
-
    -webkit-box-shadow: inset 0px 0px 11px 4px rgba(0,0,0,0.15);
    box-shadow: inset 0px 0px 11px 4px rgba(0,0,0,0.15);
-
-   // background-color: #1f1f35;
-   // background-image: url('../images/flat.png');
-   // background-repeat: repeat;
-   // background-position: center;
-   // background-size: cover;
-   // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2E2E50), to(#1f1f35));
-   // background: -webkit-linear-gradient(top, #2E2E50, #1f1f35);
-   // background: -moz-linear-gradient(top, #2E2E50, #1f1f35);
-   // background: -ms-linear-gradient(top, #2E2E50, #1f1f35);
-   // background: -o-linear-gradient(top, #2E2E50, #1f1f35);
-   // background: linear-gradient(top, #2E2E50, #1f1f35);
-
  }
-
-// .home-btn {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-
-// .process-list {
-//   @include flexcenter;
-//
-//   .process-item {
-//     min-height: 400px;
-//     margin: $spacing-unit auto $spacing-unit auto;
-//
-//     .process-title {
-//       margin-top: $spacing-unit / 3;
-//       margin-bottom: $spacing-unit;
-//     }
-//
-//     img { height: 150px; }
-//
-//     li {
-//       list-style: none;
-//       margin-bottom: $spacing-unit / 2;
-//     }
-//   }
-// }
 
 /**
  * Screen: sm
@@ -65,12 +25,6 @@
       padding: 10px;
     }
   }
-
-  .process-list {
-    text-align: center;
-
-    .process-item { width: 85%;}
-  }
 }
 
 /**
@@ -78,21 +32,9 @@
  */
 @media screen and (min-width: $on-palm) {
   .home-btn { width: 100px; }
-
-  // .process-list {
-  //   text-align: left;
-  //
-  //   .process-item { width: 45%;}
-  // }
 }
 
 /**
  * Screen: lg
  */
-@media screen and (min-width: $on-laptop) {
-  // .process-list {
-  //   text-align: left;
-  //
-  //   .process-item { width: auto;}
-  // }
-}
+@media screen and (min-width: $on-laptop) {}
