@@ -29,34 +29,9 @@
   }
 }
 
-nav {
-  @include gradient(#2E2E50, #1f1f35);
-  font-weight: 300;
-
-
-  * { display: inline-block; }
-
-  .nav-left {
-    position: relative;
-    z-index: 2;
-    img { width: 60px; }
-
-    h2 {
-      font-weight: 300;
-      margin-left: $spacing-unit / 3;
-    }
-  }
-
-  .nav-right {
-    position: relative;
-    float: right;
-    z-index: 2;
-    margin-top: $spacing-unit / 2;
-    li { margin-left: $spacing-unit; }
-  }
-}
-
 .nav-social {
+  margin-top: $spacing-unit / 2;
+
   img { max-height: 17px; }
 
   li {
@@ -111,26 +86,27 @@ nav {
 }
 
 footer {
-  @include gradient(#1f1f35, #2E2E50);
+  // @include gradient(#1f1f35, #2E2E50);
+  background: #F5F5F9; //grey var?
   margin: 0 0 0 0;
   position: relative;
   text-align: center;
   overflow: hidden;
 
-  .logo-sm {
-    margin-bottom: 20px;
-
-    img {
-      @include gradient(#272645, #2B2A4B);
-      padding: 0 10px;
-      width: 150px;
-    }
-
-    .logo-line {
-      border-bottom: 1px solid #8D8D98;
-      margin-bottom: -75px;
-    }
-  }
+  // .logo-sm {
+  //   margin-bottom: 20px;
+  //
+  //   img {
+  //     @include gradient(#272645, #2B2A4B);
+  //     padding: 0 10px;
+  //     width: 150px;
+  //   }
+  //
+  //   .logo-line {
+  //     border-bottom: 1px solid #8D8D98;
+  //     margin-bottom: -75px;
+  //   }
+  // }
 
   .footer-waves {
     margin-bottom: 5px;
