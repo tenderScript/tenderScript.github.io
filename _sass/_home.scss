@@ -15,24 +15,12 @@
 /**
  * Screen: sm
  */
-@media screen and (max-width: $on-palm) {
-
-  .home-btn {
-    width: 225px;
-
-    .btn {
-      width: 225px;
-      padding: 10px;
-    }
-  }
-}
+@media screen and (max-width: $on-palm) {}
 
 /**
  * Screen: md
  */
-@media screen and (min-width: $on-palm) {
-  .home-btn { width: 100px; }
-}
+@media screen and (min-width: $on-palm) {}
 
 /**
  * Screen: lg
