@@ -260,7 +260,7 @@
 
    .post-block {
      width: 75%;
-     height: 300px;
+     height: 220px;
 
      // .block-details {
      //   padding: .5em 0 .5em 1em;
@@ -277,7 +277,7 @@
        .post-title-new {
          position: absolute;
          margin: 1em;
-         z-index: 1;
+         z-index: 2;
        }
 
        .post-image-new {
@@ -468,7 +468,7 @@
    .post-list {
      .post-block {
        width: 30%;
-       height: 325px;
+       height: 230px;
      }
    }
 

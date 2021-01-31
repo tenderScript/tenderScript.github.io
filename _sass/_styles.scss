@@ -3,8 +3,7 @@
  */
 
 .btn {
-  padding-top: 7px;
-  padding-bottom: 6px;
+  padding: 7px 17px 6px 17px;
   min-width: 120px;
   font-size: $text-reg;
   font-weight: 600;
@@ -12,13 +11,11 @@
   color: $background-color;
   text-align: center;
   text-shadow: 0 1.5px 0 #8059E0;
-
   border-color: #8c48b1;
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: 14px solid;
   border-left-style: none;
-
   border-radius: 15px;
   @include gradient(#A884FF, #8D5FFE);
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.15);

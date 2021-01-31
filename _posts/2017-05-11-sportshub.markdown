@@ -3,7 +3,7 @@ layout: post
 title:  "Sports Hub"
 date:   2017-05-11 12:00:00 -0500
 categories: "UX &nbsp; Design"
-image: /../images/posts/sports-hub/post-sportshub.png
+image: /../images/posts/sports-hub/post-sportshub.jpg
 permalink: /sports-hub/
 details: "set1"
 client: "Varsity News Network"
@@ -16,7 +16,7 @@ preview: /../images/posts/sports-hub/devices.png
 <table class="post-content-section-title">
   <tr>
     <td>
-      <p class="section-title">Discovery & Research</p>
+      <p class="section-title">Discovery</p>
     </td>
   </tr>
 </table>
