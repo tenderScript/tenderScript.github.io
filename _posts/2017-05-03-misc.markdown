@@ -3,7 +3,7 @@ layout: post
 title:  "Misc Projects"
 date:   2017-05-03 12:00:00 -0500
 categories: Visual &nbsp; Design
-image: /../images/posts/misc/post-misc.png
+image: /../images/posts/misc/post-misc.jpg
 permalink: /misc/
 details: "set2"
 about: Some of my early projects focused on creating brands to capture a company's message. Some of the clients I’ve worked with range from real estate agencies, small businesses, sports teams, and startups.
