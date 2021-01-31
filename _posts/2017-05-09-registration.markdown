@@ -3,7 +3,7 @@ layout: post
 title:  "VNN Registration"
 date:   2017-05-09 12:00:00 -0500
 categories: UX &nbsp; Design
-image: /../images/posts/registration/post-registration.png
+image: /../images/posts/registration/post-registration.jpg
 permalink: /vnn-registration/
 details: "set1"
 client: "Varsity News Network"

@@ -3,7 +3,7 @@ layout: post
 title:  "Professional Suite"
 date:   2017-05-08 12:00:00 -0500
 categories: UX &nbsp; Design
-image: /../images/posts/profesh/post-profesh.png
+image: /../images/posts/profesh/post-profesh.jpg
 permalink: /profesh/
 details: "set1"
 client: "Varsity News Network"

@@ -3,7 +3,7 @@ layout: post
 title:  "REGIS"
 date:   2021-01-24 12:00:00 -0500
 categories: "UX &nbsp; Design"
-image: /../images/posts/regis/post-regis.png
+image: /../images/posts/regis/post-regis.jpg
 permalink: /regis/
 details: "set1"
 client: "Sites USA"
