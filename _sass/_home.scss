@@ -3,6 +3,8 @@
  */
  .intro {
    @include gradient(#A884FF, #8D5FFE);
+   @include flex;
+   @include flexcenter;
    position: relative;
    margin: 0 0 0 0;
    height: 485px;
