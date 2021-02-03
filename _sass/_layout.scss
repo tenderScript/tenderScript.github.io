@@ -275,10 +275,10 @@
      }
 
        .post-title-new {
+         @include text-shadow;
          position: absolute;
          margin: 1em;
          z-index: 2;
-         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
        }
 
        .post-image-new {

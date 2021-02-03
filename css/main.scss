@@ -125,6 +125,10 @@ $text-xs:          .65em;
   transition: all 250ms ease-out;
 }
 
+@mixin text-shadow {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
