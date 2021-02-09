@@ -360,17 +360,18 @@
 }
 
 .post-content-section-title {
+  @include gradient(#F5F5F9, #FFFFFF);
   position: relative;
   margin-top: $spacing-unit * 4;
-  margin-bottom: $spacing-unit * 4;
-  height: 355px;
+  height: 350px;
   width: 100%;
 
   .section-title {
     font-size: $text-xxl;
-    font-weight: lighter;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 8px;
   }
 }
 

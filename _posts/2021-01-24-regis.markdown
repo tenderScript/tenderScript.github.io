@@ -13,6 +13,29 @@ solution: "Placeholder."
 preview: /../images/posts/regis/preview-regis.png
 ---
 
+
+**What is REGIS**
+
+REGIS is a browser based program made by the company Sites USA which allows users to run a complete analysis on their commercial real estate location(s) using demographic data to determine if it is an area that can be developed, rented or expanded into. The demographic data REGIS uses includes anything from income, educational, traffic counts or geosocial data and comes from a collection of Sites USA partners. REGIS users either extract this data in a pdf report form, or they use this data to create maps in REGIS’s layout mode around their commercial site(s) which helps them illustrate that a location is well suited to their ideal market.  
+<br>
+<br>
+
+![ROL4 ui and sample map](/../images/posts/regis/preview-regis.png)
+<br>
+<br>
+<br>
+
+ **My Role**
+
+ My role for this project was to help design new front end for product, improve the program wherever i could, and discover what more it could do for users.<br>
+ -Address issues with program (zoom tool etc,)<br>
+ -Test design and new features/ui (usability testing)<br>
+ -Determine user needs/pain points (email campaigns user interviews)<br>
+ -Validate requested features (research for api/data embed)<br>
+ -Create channels to collect feedback (channeling support/QA)<br>
+<br>
+<br>
+
 <table class="post-content-section-title">
   <tr>
     <td>
@@ -21,23 +44,22 @@ preview: /../images/posts/regis/preview-regis.png
   </tr>
 </table>
 
-### Lorem Ipsum
+**User Research**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis ipsum. Curabitur tempor vestibulum lorem vitae molestie. Quisque eu nunc in libero scelerisque ultrices id eget arcu. Nullam id placerat leo, et fringilla nibh. Donec nec ex quam. Aliquam vel posuere mi. Praesent id lectus id eros interdum blandit commodo nec mi. Nulla diam velit, semper vel tincidunt vitae, iaculis eget ex. Nam massa erat, tempus tempor metus at, ultrices malesuada est. Aliquam sodales lacinia urna, quis ornare nisl ornare vitae. Nulla laoreet accumsan nibh nec tempor.
-<br>
-<br>
-
-**Lorem Ipsum**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis ipsum. Curabitur tempor vestibulum lorem vitae molestie. Quisque eu nunc in libero scelerisque ultrices id eget arcu. Nullam id placerat leo, et fringilla nibh. Donec nec ex quam. Aliquam vel posuere mi. Praesent id lectus id eros interdum blandit commodo nec mi. Nulla diam velit, semper vel tincidunt vitae, iaculis eget ex. Nam massa erat, tempus tempor metus at, ultrices malesuada est. Aliquam sodales lacinia urna, quis ornare nisl ornare vitae. Nulla laoreet accumsan nibh nec tempor.
+To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collected the existing assumptions Sites USA had about our users to make set of early user personas, these mostly revolved around each of their roles within the commercial real estate industry. Our users typically worked for a landlord, a developer, or a broker. Each of these had slightly different motivations that made them successful in their role, but I learned that in general there wasn’t necessarily a fixed set of features that defined a certain type of user (i.e. they used a little bit of everything). I emphasized that this information was a great start to understanding them with the lens of their industry, but we also needed to take a deeper look at who our users are outside of just the industry they worked in. With some of our initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, and more so the assistant/marketing/secretary for that person. This guided more of our testing, as well as answered some of the questions we had about how to prioritize what needed to be worked on. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program, things like the general flow of their work. An example being one of the most requested feature wasn’t exactly a new feature, but rather something that had to be worked around in an existing feature. That was the fact that users had to do a work around to get their map to fit in the layout/print mode in the product. The result was that they often had to just screen shot the webpage, or forgo the layout portion of the product.
 <br>
 <br>
 
-![Persona1](/../images/posts/sports-hub/th/th-persona.png)
+![Susa user persona](/../images/posts/regis/preview-regis.png)
 <br>
 <br>
 <br>
-<br>
+
+**Company Research**
+
+While working on REGIS I also had to take note of the few internal needs of Sites USA. An example was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, this was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
+
+The tech requirements were simply to update application front-end into something that is much easier to maintain, this included a consistent design guide to be used as the program continues to develop. Sites USA also wanted to Retain users and there was an heavy emphasis around keeping the people around that have stayed with us for a long time.
 
 
 <table class="post-content-section-title">
@@ -49,28 +71,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis i
 </table>
 
 
-### Recommended Architecture
+**Iteration Cycles**
 
-**Sitemap**
-
-![Site map displaying all the pages of the new website](/../images/posts/sports-hub/full/full-sitemap.png)
+We broke up the design tasks in REGIS into small iterative stretches. We started with the core functions of the program as determined by our in-house tool usage site. These functions were what the most users initially signed up to use, and were vital to get correct. We then sketched existing user flows for these tasks, and looked to see what improvements if any there was to be made. The initial design consisted of adding retail merchants to the map, creating demographic heat maps, and running reports on a location.
 <br>
 <br>
 
-**Lorem Ipsum**
-
-![User Flow1](/../images/posts/sports-hub/th/th-userflows.png)
+![Userflow whiteboard](/../images/posts/regis/preview-regis.png)
 <br>
 <br>
 <br>
 
+**Usability Testing**
 
-### Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis ipsum. Curabitur tempor vestibulum lorem vitae molestie. Quisque eu nunc in libero scelerisque ultrices id eget arcu. Nullam id placerat leo, et fringilla nibh. Donec nec ex quam. Aliquam vel posuere mi. **Praesent id lectus id eros interdum blandit commodo nec mi. Nulla diam velit, semper vel tincidunt vitae, iaculis eget ex. Nam massa erat, tempus tempor metus at, ultrices malesuada est.** Aliquam sodales lacinia urna, quis ornare nisl ornare vitae. Nulla laoreet accumsan nibh nec tempor.
+We tested usability on both the old version and the new version. testing was done by scoring some of our users/employees/random people, part of the reason i choose to include employees was because i was selling the ux process to the company. I was the first person working here that had UX experience ( could be an project in itself) and by showing them a basic ux technique allowed them to trust me/and open up to more research/ui/ux in the future. anyway we gave some of these users a handful of tasks, and watched them as they worked their way through the new design. I would then score them on a scale of 0-3 for each task see below example. This provided me with some ‘hard’ data that Sites USA could use to determine what areas needed to improve. Some of the things i found was low visibility of some of the features. obscure icons that didn’t best convey the tool they where made to interpret
 <br>
 <br>
-![wireframe1](/../images/posts/sports-hub/th/th-prototype.png)
+
+![Usability testing results](/../images/posts/regis/preview-regis.png)
 <br>
 <br>
 <br>
@@ -84,35 +102,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis i
   </tr>
 </table>
 
-**Lorem Ipsum**
+**Beta**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis ipsum. Curabitur tempor vestibulum lorem vitae molestie. Quisque eu nunc in libero scelerisque ultrices id eget arcu.
-<br>
-<br>
-<br>
-
-<section class="post-content-image-side wrapper">
-  <section class="text">
-    <p><strong>Side item1</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </section>
-  <section class="image">
-    <img src="/../images/posts/sports-hub/atoms.png">
-  </section>
-</section>
-
-<br>
-
-<section class="post-content-image-side wrapper">
-  <section class="text">
-    <p><strong>Side item2</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </section>
-  <section class="image">
-    <img src="/../images/posts/sports-hub/atoms.png">
-  </section>
-</section>
-
 <br>
 <br>
 <br>
