@@ -242,6 +242,11 @@
    margin-bottom: $spacing-unit;
  }
 
+ .new-post-preview {
+   background-color: $background-dark;
+   text-align: center;
+ }
+
  .post-list {
    @include flexcenter;
 
@@ -261,14 +266,6 @@
    .post-block {
      width: 75%;
      height: 220px;
-
-     // .block-details {
-     //   padding: .5em 0 .5em 1em;
-     //
-     //   .block-title {
-     //     margin-bottom: -5px;
-     //   }
-     // }
 
      .post-image {
        // @include flexcenter;
