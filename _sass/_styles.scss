@@ -139,13 +139,13 @@ footer {
     img { width: 100%; }
 
     .nav-left {
-      width: 44px;
+      width: 25%;
     }
 
     .nav-right {
-      margin-top: $spacing-unit / 3;
-      float: none;
-      width: 85%;
+      // margin-top: $spacing-unit / 3;
+      // float: none;
+      width: 60%;
 
       .nav-items {
         width: 100%;
@@ -153,12 +153,12 @@ footer {
        }
 
       li {
-        @include button-ghost;
-        display: inline-block;
-        margin-left: 1%;
-        margin-right: 1%;
-        padding-left: 2%;
-        padding-right: 2%;
+        //@include button-ghost;
+        // display: inline-block;
+        // margin-left: 1%;
+        // margin-right: 1%;
+        // padding-left: 2%;
+        // padding-right: 2%;
       }
     }
   }
