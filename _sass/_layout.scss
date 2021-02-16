@@ -242,7 +242,9 @@
    margin-bottom: $spacing-unit;
  }
 
- .new-post-preview {
+ .post-preview-new {
+   height: 485px;
+   padding-top: 45px;
    background-color: $background-dark;
    text-align: center;
  }
@@ -470,6 +472,8 @@
 
    .about {
      @include flex;
+     margin-top: 0;
+     padding-top: $spacing-unit * 3;
 
      .bio, .about-photo { @include spacing-md; }
 
