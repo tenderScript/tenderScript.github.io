@@ -392,17 +392,6 @@
   height: 400px;
 }
 
-.sh-post {
-  margin-bottom: -200px;
-  z-index: -1;
-  background-image: url("/../images/posts/sports-hub/sh-post-bg.jpg");
-  height: 370px;
-
-  p {
-    margin-top: -60px;
-  }
-}
-
 
 /**
  * Screen: sm
@@ -414,12 +403,6 @@
        height: 200px;
      }
    }
-
-   // .nav-main {
-   //   padding-left: $spacing-unit;
-   //   padding-right: $spacing-unit;
-   //   padding-top: $spacing-unit / 2;
-   // }
 
    .more-block {
      max-width: 17%;

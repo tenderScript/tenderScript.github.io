@@ -147,7 +147,7 @@ To make sure the project remained consistent throughout our product iterations, 
 <br>
 <br>
 
-<table class="post-content-section-title sh-post">
+<table class="post-content-section-title">
   <tr>
     <td>
       <p class="section-title">Final Designs</p>
