@@ -10,29 +10,25 @@ layout: default
     </div>
   </section>
 
+  <section class="post-details-new">
+    <div class="wrapper">
+      <div class="post-details-card text-inverted">
+        <header class="post-header">
+          <h1 class="post-title text-inverted" itemprop="name headline">{{ page.title | escape }}</h1>
+        </header>
+        {% if page.details == "set1" %}
+          <p><b>Client: </b><span>{{ page.client }}</span></p>
+          <p><b>Role: </b><span>{{ page.role }}</span></p>
+          <p><b>Problem: </b><span>{{ page.problem }}</span></p>
+          <p><b>Solution: </b><span>{{ page.solution }}</span></p>
+        {% endif %}
+        {% if page.details == "set2"%}
+          <p><b>About: </b><span>{{ page.about }}</span></p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
 
-  <div class="wrapper">
-    <!-- <a href="/index/">
-      <button class="btn">Back</button>
-    </a> -->
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    </header>
-    <!-- <section class="post-preview">
-      <img src="{{ page.preview }}">
-    </section> -->
-    <section class="post-details">
-      {% if page.details == "set1" %}
-        <p><b>Client: </b><span>{{ page.client }}</span></p>
-        <p><b>Role: </b><span>{{ page.role }}</span></p>
-        <p><b>Problem: </b><span>{{ page.problem }}</span></p>
-        <p><b>Solution: </b><span>{{ page.solution }}</span></p>
-      {% endif %}
-      {% if page.details == "set2"%}
-        <p><b>About: </b><span>{{ page.about }}</span></p>
-      {% endif %}
-    </section>
-  </div>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
