@@ -7,12 +7,12 @@ image: /../images/posts/misc/post-misc.jpg
 permalink: /misc/
 details: "set2"
 about: Some of my early projects focused on creating brands to capture a company's message. Some of the clients I’ve worked with range from real estate agencies, small businesses, sports teams, and startups.
-preview: /../images/posts/misc/preview-misc.png
+preview: /../images/posts/misc/preview-misc.jpg
 ---
 
 **Logo Design**
 
-Although graphic design was never my intended career path, the clients it lead me to was mostly small business owners and while working for VNN.
+Some of my earliest work was primarily visual design. Most of the clients I worked for was mostly small business owners, start ups, and the occasional real-estate agent. If you think this work is quality, let met tell you that it wasn't always this way. One of these days I'll have to post some of my really old work for a good chuckle.
 
 ![Modpack Logo](/../images/posts/misc/modpack-logo.png)
 
