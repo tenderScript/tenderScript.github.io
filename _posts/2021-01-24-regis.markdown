@@ -8,9 +8,9 @@ permalink: /regis/
 details: "set1"
 client: "Sites USA"
 role: "UX Design"
-problem: "Placeholder."
+problem: "Update application front-end, address user feedback from the original application. "
 solution: "Placeholder."
-preview: /../images/posts/regis/preview-regis.png
+preview: /../images/posts/regis/preview-regis.jpg
 ---
 
 

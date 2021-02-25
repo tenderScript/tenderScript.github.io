@@ -10,7 +10,7 @@ client: "Varsity News Network"
 role: "UX Design"
 problem: "VNN’s applications didn't support the demands of the staff running the schools programs. Especially when it came to scheduling, and managing events."
 solution: "Give school staff a place that allowed them to easily create, manage, and share important schedule information."
-preview: /../images/posts/profesh/profesh-preview.png
+preview: /../images/posts/profesh/preview-professional-suite.jpg
 ---
 
 <table class="post-content-section-title">

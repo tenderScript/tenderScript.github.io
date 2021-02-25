@@ -10,7 +10,7 @@ client: "Varsity News Network"
 role: "UX Design"
 problem: "Low customer engagement, high bounce rates."
 solution: "Create a new platform for VNN’s partners that fix usability issues, adds mobile support, and streamline content creation."
-preview: /../images/posts/sports-hub/devices.png
+preview: /../images/posts/sports-hub/preview-sportshub.jpg
 ---
 
 <table class="post-content-section-title">

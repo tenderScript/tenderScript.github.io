@@ -10,20 +10,20 @@ client: "Sites USA"
 role: "UX Design"
 problem: "Placeholder."
 solution: "Placeholder."
-preview: /../images/posts/sites-usa/preview-sitesusa.png
+preview: /../images/posts/sites-usa/preview-sites-usa.jpg
 ---
 
 <table class="post-content-section-title">
   <tr>
     <td>
-      <p class="section-title">Discovery & Research</p>
+      <p class="section-title">Discovery</p>
     </td>
   </tr>
 </table>
 
 ### Customer Research
 
-The research was split between design and product management. We started by interviewing VNN’s partner athletic directors, and worked our way through their network of parents, staff, and coaches.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet bibendum libero. Aenean et lacinia metus. Quisque vel placerat ex. In id augue nec mi varius vehicula accumsan in velit. Donec aliquam vel ligula sed elementum. Quisque a ligula vitae risus congue suscipit. Praesent lectus sapien, laoreet a neque sed, vestibulum fermentum risus.
 <br>
 <br>
 
