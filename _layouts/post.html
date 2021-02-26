@@ -3,15 +3,14 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-
   <section class="post-preview-new">
-      <img class="post-preview-img" src="{{ page.preview }}">
+    <img class="post-preview-img" src="{{ page.preview }}">
   </section>
 
   <section class="post-details-new">
     <div class="wrapper">
       <div class="post-details-card text-inverted">
-        <header class="post-header">
+        <header>
           <h1 class="post-title text-inverted" itemprop="name headline">{{ page.title | escape }}</h1>
         </header>
         {% if page.details == "set1" %}
@@ -25,8 +24,8 @@ layout: default
         {% endif %}
       </div>
     </div>
+    <!-- <div class="post-details-new-bg"></div> -->
   </section>
-
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
