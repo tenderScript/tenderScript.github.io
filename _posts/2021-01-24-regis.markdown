@@ -16,7 +16,7 @@ preview: /../images/posts/regis/preview-regis.jpg
 
 **What is REGIS**
 
-REGIS is a browser based program made by the company Sites USA which allows users to run a complete analysis on their commercial real estate location(s) using demographic data to determine if it is an area that can be developed, rented or expanded into. The demographic data REGIS uses includes anything from income, educational, traffic counts or geosocial data and comes from a collection of Sites USA partners. REGIS users either extract this data in a pdf report form, or they use this data to create maps in REGIS’s layout mode around their commercial site(s) which helps them illustrate that a location is well suited to their ideal market.  
+REGIS is a mapping and demographics program made by Sites USA, which allows users to run a complete analysis on their commercial real estate location(s). This analysis done using demographic data to determine if it is an area that can be developed, rented, or expanded into. The data REGIS uses includes anything from traditional demographic data (population, income, educational attainment etc.) or newer forms like mobile location data, and traffic counts. This data comes from a collection of Sites USA's partners, and allows users to collect a report form, or they can create maps in REGIS’s layout mode for their target market. These maps are then shared or printed to help them illustrate a location's viability to their clients.  
 <br>
 <br>
 
@@ -27,7 +27,7 @@ REGIS is a browser based program made by the company Sites USA which allows user
 
  **My Role**
 
- My role for this project was to help design new front end for product, improve the program wherever i could, and discover what more it could do for users.<br>
+ My role for this project was to design a new front end for product, improve the program wherever I could, and discover what more it could do for users.<br>
  -Address issues with program (zoom tool etc,)<br>
  -Test design and new features/ui (usability testing)<br>
  -Determine user needs/pain points (email campaigns user interviews)<br>
@@ -44,9 +44,17 @@ REGIS is a browser based program made by the company Sites USA which allows user
   </tr>
 </table>
 
+**Initial Research**
+
+To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as humans. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
+<br>
+<br>
+
 **User Research**
 
-To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collected the existing assumptions Sites USA had about our users to make set of early user personas, these mostly revolved around each of their roles within the commercial real estate industry. Our users typically worked for a landlord, a developer, or a broker. Each of these had slightly different motivations that made them successful in their role, but I learned that in general there wasn’t necessarily a fixed set of features that defined a certain type of user (i.e. they used a little bit of everything). I emphasized that this information was a great start to understanding them with the lens of their industry, but we also needed to take a deeper look at who our users are outside of just the industry they worked in. With some of our initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, and more so the assistant/marketing/secretary for that person. This guided more of our testing, as well as answered some of the questions we had about how to prioritize what needed to be worked on. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program, things like the general flow of their work. An example being one of the most requested feature wasn’t exactly a new feature, but rather something that had to be worked around in an existing feature. That was the fact that users had to do a work around to get their map to fit in the layout/print mode in the product. The result was that they often had to just screen shot the webpage, or forgo the layout portion of the product.
+With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of they program, an example being one of the most requested feature wasn’t exactly a new feature, but something that had to be worked around in an existing feature. That was the fact that users had to do a work around to get their map to fit in the layout/print mode in the product. The result was that they often had to just screen shot the webpage, or forgo the layout portion of the product.
+
+I learned that in general there wasn’t necessarily a fixed group of feature use that defined a certain type of user (i.e. they used a little bit of everything).
 <br>
 <br>
 
@@ -59,8 +67,12 @@ To deliver a more purposeful design to our users, I needed to know and understan
 
 While working on REGIS I also had to take note of the few internal needs of Sites USA. An example was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, this was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
 
-The tech requirements were simply to update application front-end into something that is much easier to maintain, this included a consistent design guide to be used as the program continues to develop. Sites USA also wanted to Retain users and there was an heavy emphasis around keeping the people around that have stayed with us for a long time.
+The technical requirements were simply to update application front-end into something that is much easier to maintain, this included a consistent design guide to be used as the program continues to develop for future designers and developers. Sites USA also wanted to Retain users and there was an heavy emphasis around keeping the people around that have stayed with us for a long time.
 
+![Design Guide](/../images/posts/regis/preview-regis.png)
+<br>
+<br>
+<br>
 
 <table class="post-content-section-title">
   <tr>
