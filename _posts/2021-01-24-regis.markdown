@@ -46,7 +46,7 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 
 **Initial Research**
 
-To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as humans. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
+To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as humans. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it. 
 <br>
 <br>
 
@@ -87,7 +87,7 @@ We broke up the design tasks in REGIS into small iterative stretches. We started
 <br>
 <br>
 
-![Userflow whiteboard](/../images/posts/regis/preview-regis.png)
+![Userflow whiteboard](/../images/posts/regis/post-userflow-whiteboard.jpg)
 <br>
 <br>
 <br>
