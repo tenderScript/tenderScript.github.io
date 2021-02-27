@@ -20,7 +20,7 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 <br>
 <br>
 
-![ROL4 ui and sample map](/../images/posts/regis/preview-regis.png)
+![ROL4 ui and sample map](/../images/posts/regis/post-rol4-print.jpg)
 <br>
 <br>
 <br>
@@ -52,8 +52,7 @@ To deliver a more purposeful design to our users, I needed to know and understan
 
 **User Research**
 
-With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature. 
-
+With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
 <br>
 <br>
 
@@ -64,7 +63,7 @@ With these initial tests and interviews I took note of who was actually using ou
 
 **Company Research**
 
-While working on REGIS I also had to take note of the few internal needs of Sites USA. An example was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, this was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
+While working on REGIS I also had to take note of the internal needs of Sites USA. An example was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, this was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
 
 The technical requirements were simply to update application front-end into something that is much easier to maintain, this included a consistent design guide to be used as the program continues to develop for future designers and developers. Sites USA also wanted to Retain users and there was an heavy emphasis around keeping the people around that have stayed with us for a long time.
 
