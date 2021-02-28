@@ -62,3 +62,19 @@
  * Screen: lg
  */
 @media screen and (min-width: $on-laptop) {}
+
+/**
+ * Screen: xl
+ */
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    max-width: -webkit-calc(1600px - (#{$spacing-unit} * 2)); //og = 800px
+    max-width:         calc(1600px - (#{$spacing-unit} * 2)); //og = 800px
+  }
+
+  .post-list {
+    .post-block {
+      width: 30%;
+    }
+  }
+}
