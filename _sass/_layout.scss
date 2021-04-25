@@ -461,6 +461,11 @@
   height: 400px;
 }
 
+ @media screen and (max-width: $on-palm) {
+  .about {
+    padding-top: $spacing-unit * 3;
+  }
+}
 
 /**
  * Screen: sm
