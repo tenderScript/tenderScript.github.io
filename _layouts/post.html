@@ -37,22 +37,42 @@ layout: default
 
 </article>
 
-<div class="wrapper">
+<!-- <div class="wrapper">
   <section class="page-section">
     <h2 class="page-heading"><span>View More</span></h2>
     <ul class="post-list">
       {% for post in site.posts limit:5 %}
         <li class="more-block">
+          <div class="more-details">
+            <span class="block-title">{{ post.title | escape }}</span>
+          </div>
           <a class="post-link" href="{{ post.url | relative_url }}">
             <div class="more-image">
               <img src="{{ post.image }}">
-            </div>
-            <div class="more-details">
-              <span class="block-title">{{ post.title | escape }}</span>
             </div>
           </a>
         </li>
       {% endfor %}
     </ul>
     </section>
+</div> -->
+
+<div class="wrapper">
+  <section class="page-section">
+    <h2 class="page-heading"><span>View More</span></h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li class="more-block">
+          <div class="more-details">
+            <span class="block-title">{{ post.title | escape }}</span>
+          </div>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <div class="more-image">
+              <img src="{{ post.image }}">
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>

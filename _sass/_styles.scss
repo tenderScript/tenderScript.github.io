@@ -59,37 +59,37 @@
   }
 }
 
-.intro-waves, .footer-waves, .default-waves {
-  overflow: hidden;
-
-  svg {
-    height: 500px;
-    width: 100%;
-  }
-}
-
-.wave-cover {
-  position: relative;
-  width: 100%;
-  background: $background-color;
-  z-index: 3;
-}
-
-.default-waves {
-  position: relative;
-  margin-bottom: -450px;
-  background: #1f1f35;
-  z-index: 1;
-
-  .wave-cover {
-    height: 500px;
-    margin-top: -300px;
-  }
-
-  .wave1 { margin-top: -470px; }
-  .wave2 { margin-top: -480px; margin-bottom: -40px; }
-  .wave3 { margin-top: -40px;  margin-bottom: -60px; }
-}
+// .intro-waves, .footer-waves, .default-waves {
+//   overflow: hidden;
+//
+//   svg {
+//     height: 500px;
+//     width: 100%;
+//   }
+// }
+//
+// .wave-cover {
+//   position: relative;
+//   width: 100%;
+//   background: $background-color;
+//   z-index: 3;
+// }
+//
+// .default-waves {
+//   position: relative;
+//   margin-bottom: -450px;
+//   background: #1f1f35;
+//   z-index: 1;
+//
+//   .wave-cover {
+//     height: 500px;
+//     margin-top: -300px;
+//   }
+//
+//   .wave1 { margin-top: -470px; }
+//   .wave2 { margin-top: -480px; margin-bottom: -40px; }
+//   .wave3 { margin-top: -40px;  margin-bottom: -60px; }
+// }
 
 .post-content {
   img {
@@ -132,28 +132,8 @@ footer {
  * Screen: sm
  */
 @media screen and (max-width: $on-palm) {
-  nav {
-    padding: $spacing-unit / 3;
-
-    h2  { display: none; }
-    img { width: 100%; }
-
-    .nav-left {
-      width: 25%;
-    }
-
-    .nav-right {
-      width: 60%;
-
-      .nav-items {
-        width: 100%;
-        text-align: center;
-       }
-    }
-  }
-
   .more-block {
-    max-width: 40%;
+    max-width: 100%;
 
     .more-details {
       padding: .15em 0 .15em .5em;

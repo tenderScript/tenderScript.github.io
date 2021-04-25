@@ -1,90 +1,90 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
-}
+// .site-header {
+//     border-top: 5px solid $grey-color-dark;
+//     border-bottom: 1px solid $grey-color-light;
+//     min-height: 56px;
+//
+//     // Positioning context for the mobile navigation icon
+//     position: relative;
+// }
+//
+// .site-title {
+//     font-size: 26px;
+//     line-height: 56px;
+//     letter-spacing: -1px;
+//     margin-bottom: 0;
+//     float: left;
+//
+//     &,
+//     &:visited {
+//         color: $grey-color-dark;
+//     }
+// }
+//
+// .site-nav {
+//     float: right;
+//     line-height: 56px;
+//
+//     .menu-icon {
+//         display: none;
+//     }
+//
+//     .page-link {
+//         color: $text-color;
+//         line-height: $base-line-height;
+//
+//         // Gaps between nav items, but not on the first one
+//         &:not(:first-child) {
+//             margin-left: 20px;
+//         }
+//     }
+//
+//     @include media-query($on-palm) {
+//         position: absolute;
+//         top: 9px;
+//         right: 30px;
+//         background-color: $background-color;
+//         border: 1px solid $grey-color-light;
+//         border-radius: 5px;
+//         text-align: right;
+//
+//         .menu-icon {
+//             display: block;
+//             float: right;
+//             width: 36px;
+//             height: 26px;
+//             line-height: 0;
+//             padding-top: 10px;
+//             text-align: center;
+//
+//             > svg {
+//                 width: 18px;
+//                 height: 15px;
+//
+//                 path {
+//                     fill: $grey-color-dark;
+//                 }
+//             }
+//         }
+//
+//         .trigger {
+//             clear: both;
+//             display: none;
+//         }
+//
+//         &:hover .trigger {
+//             display: block;
+//             padding-bottom: 5px;
+//         }
+//
+//         .page-link {
+//             display: block;
+//             padding: 5px 10px;
+//         }
+//     }
+// }
 
 /**
  * Site navigation
@@ -124,6 +124,31 @@
     li {
       display: inline-block;
       margin-left: $spacing-unit;
+    }
+  }
+}
+
+@media screen and (max-width: $on-palm) {
+  .nav-main {
+    // padding: $spacing-unit / 3;
+
+    .nav-left {
+      padding-left: $spacing-unit / 3;
+      width: 34%;
+    }
+
+    .nav-right {
+     padding-right: $spacing-unit / 3;
+     width: 60%;
+
+      .nav-items {
+        width: 100%;
+        text-align: right;
+
+        li {
+          margin-left: $spacing-unit / 2;
+        }
+      }
     }
   }
 }
@@ -290,7 +315,7 @@
      z-index: 5;
      overflow: hidden;
 
-     .more-image { border-bottom: 1px solid #00E5FF; }
+     // .more-image { border-bottom: 1px solid #00E5FF; }
      // .block-title { @include strong-text; }
    }
 
