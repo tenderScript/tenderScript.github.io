@@ -20,11 +20,11 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 <br>
 
 Old version of site with trade area.
-![ROL4 Trade Area](/../images/posts/regis/post-rol4-trade-area.png)
+![ROL4 Trade Area](/../images/posts/regis/post-rol4-trade-area.jpg)
 <br>
 
 Old version of dashboard.
-![ROL4 Dashboard](/../images/posts/regis/post-rol4-dash.png)
+![ROL4 Dashboard](/../images/posts/regis/post-rol4-dash.jpg)
 <br>
 
 Old version of print mode.
