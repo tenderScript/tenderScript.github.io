@@ -32,11 +32,11 @@ Old version of print mode.
 <br>
 
 Old version of demographic report.
-![ROL4 Sample Report](/../images/posts/regis/post-rol4-prinffft.jpg)
+![ROL4 Sample Report](/../images/posts/regis/rol4-report.jpg)
 <br>
 
 Sample of user created map.
-![ROL4 Sample Map](/../images/posts/regis/post-rol4-prinffft.jpg)
+![ROL4 Sample Map](/../images/posts/regis/rol-print-samples.jpg)
 <br>
 <br>
 <br>
