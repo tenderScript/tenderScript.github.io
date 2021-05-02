@@ -71,7 +71,7 @@ To deliver a more purposeful design to our users, I needed to know and understan
 With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
 <br>
 
-![Susa user persona](/../images/posts/regis/preview-regis.png)
+![Susa user persona](/../images/posts/regis/rol-persona.jpg)
 <br>
 <br>
 <br>
@@ -117,7 +117,7 @@ We tested usability on both the old version and the new version. Testing was don
 <br>
 
 Low fidelity designs.
-![Low Fidelity Design](/../images/posts/regis/regis-wireframes.jpg)
+![Low Fidelity Design](/../images/posts/regis/rol5-low-fed.jpg)
 <br>
 
 User testing results.
