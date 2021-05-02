@@ -68,11 +68,15 @@ To deliver a more purposeful design to our users, I needed to know and understan
 
 **User Research**
 
-With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software. Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
+With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software.
 <br>
 
+*Regis user persona template*
 ![Susa user persona](/../images/posts/regis/rol-persona.jpg)
 <br>
+
+Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
+<br>  
 <br>
 <br>
 
@@ -81,6 +85,7 @@ With these initial tests and interviews I took note of who was actually using ou
 While working on REGIS I also had to take note of the internal needs of Sites USA. One of these needs was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, which was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product, because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
 <br>
 <br>
+
 ![User Requests & Feedback](/../images/posts/regis/preview-regis.png)
 <br>
 <br>
@@ -103,10 +108,18 @@ The technical requirements were simply to update the application's front-end int
 
 **Iteration Cycles**
 
-We broke up the design tasks in REGIS into small iterative stretches. We started with the core functions of the program as determined by our in-house tool usage site. These functions were what the most users initially signed up to use, and were vital to get correct. We then sketched existing user flows for these tasks, and looked to see what improvements if any there was to be made. The initial design consisted of adding retail merchants to the map, creating demographic heat maps, and running reports on a location.
+We broke up the design tasks in REGIS into small iterative stretches. We started with the core functions of the program as determined by our in-house tool usage site. These functions were what the most users initially signed up to use, and were vital to get correct. We then sketched existing user flows for these tasks, and looked to see what improvements if any there was to be made.
 <br>
 
+*User flow for prototype.*
 ![Userflow whiteboard](/../images/posts/regis/post-userflow-whiteboard.jpg)
+<br>
+
+The initial design consisted of adding retail merchants to the map, creating demographic heat maps, and running reports on a location.
+<br>
+
+*Low fidelity designs.*
+![Low Fidelity Design](/../images/posts/regis/rol5-low-fed.jpg)
 <br>
 <br>
 <br>
@@ -116,15 +129,11 @@ We broke up the design tasks in REGIS into small iterative stretches. We started
 We tested usability on both the old version and the new version. Testing was done by scoring some of our users as well as employees and random people. Part of the reason I choose to include employees was because I was selling the UX process to the company, and was the first person working here that had UX experience. By showing Sites USA some basic UX process allowed them to trust me enough to do more research/UX/UI in the future. From there, I gave some of the users a handful of tasks, and watched them as they worked their way through a prototype design. I would then score them on a scale of 0-3 for each task (see below example). This provided me with some ‘hard’ data that Sites USA could use to determine what areas needed to improve. Some of the things I found was low visibility of some of the features, and a lot of obscure icons that didn’t best convey the tool they where made to interpret.
 <br>
 
-Low fidelity designs.
-![Low Fidelity Design](/../images/posts/regis/rol5-low-fed.jpg)
-<br>
-
-User testing results.
+*User testing results.*
 ![Usability testing results](/../images/posts/regis/user-test-results2.png)
 <br>
 
-Design guide.
+*Design guide.*
 ![Design Guide](/../images/posts/regis/regis-components.jpg)
 <br>
 <br>
@@ -144,23 +153,23 @@ Design guide.
 As it stands now the new version of REGIS is currently in beta. Most of the current efforts are being put toward ensuring the product launch is as smooth as possible. This includes bug fixes, minor design changes, and communication of what will change for existing users. Below are some samples of the new product (features may change slightly or be out of date).
 <br>
 
-New version of map mode.
+*New version of map mode.*
 ![ROL5 Map Mode](/../images/posts/regis/rol5-home.jpg)
 <br>
 
-New version of site menu with trade area.
+*New version of site menu with trade area.*
 ![ROL5 Sites Menu & Trade Area](/../images/posts/regis/rol5-site.jpg)
 <br>
 
-New version of heatmap settings.
+*New version of heatmap settings.*
 ![ROL5 Heatmap](/../images/posts/regis/rol5-shading-settings.jpg)
 <br>
 
-New version of print mode.
+*New version of print mode.*
 ![ROL5 Print Mode](/../images/posts/regis/rol5-print.jpg)
 <br>
 
-New version of demographic reports.
+*New version of demographic reports.*
 ![ROL5 Demographicd Reports](/../images/posts/regis/rol5-report.jpg)
 <br>
 
