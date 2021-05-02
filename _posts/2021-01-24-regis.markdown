@@ -7,9 +7,9 @@ image: /../images/posts/regis/post-regis.jpg
 permalink: /regis/
 details: "set1"
 client: "Sites USA"
-role: "UX Design"
-problem: "Update application front-end, address user feedback from the original application. "
-solution: "Placeholder."
+role: "UX/UI Design"
+problem: "Collect and address user feedback from the original application, improve application front-end, improve visibility of existing tools."
+solution: "Create channels to store user feedback, test new UI improvements with users, get input from support team."
 preview: /../images/posts/regis/preview-regis.jpg
 ---
 
@@ -27,7 +27,7 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 
  **My Role**
 
- My role for this project was to design a new front end for product, improve the program wherever I could, and discover what more it could do for users.<br>
+ My role for this project was to design a new interface in order improve existing tools based on user feedback, as well as making room for new features that are being added into the program.<br>
  -Address issues with program (zoom tool etc,)<br>
  -Test design and new features/ui (usability testing)<br>
  -Determine user needs/pain points (email campaigns user interviews)<br>
@@ -46,7 +46,7 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 
 **Initial Research**
 
-To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as humans. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
+To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as people. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
 <br>
 <br>
 
@@ -98,7 +98,7 @@ We tested usability on both the old version and the new version. testing was don
 <br>
 <br>
 
-![Usability testing results](/../images/posts/regis/preview-regis.png)
+![Usability testing results](/../images/posts/regis/user-test-results1.png)
 <br>
 <br>
 <br>
