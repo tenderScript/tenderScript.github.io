@@ -139,23 +139,37 @@ Design guide.
   </tr>
 </table>
 
-**Beta**
+**Final Designs**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget sagittis ipsum. Curabitur tempor vestibulum lorem vitae molestie. Quisque eu nunc in libero scelerisque ultrices id eget arcu.
-<br>
-
-New version of site menu with trade area.
-![ROL5 Sites Menu & Trade Area](/../images/posts/regis/post-rol4-trade-area.png)
+As it stands now the new version of REGIS is currently in beta. Most of the current efforts are being put toward ensuring the product launch is as smooth as possible. This includes bug fixes, minor design changes, and communication of what will change for existing users. Below are some samples of the new product (features may change slightly or be out of date).
 <br>
 
 New version of map mode.
-![ROL5 Map Mode](/../images/posts/regis/post-rol4-dash.png)
+![ROL5 Map Mode](/../images/posts/regis/rol5-home.jpg)
+<br>
+
+New version of site menu with trade area.
+![ROL5 Sites Menu & Trade Area](/../images/posts/regis/rol5-site.jpg)
+<br>
+
+New version of heatmap settings.
+![ROL5 Heatmap](/../images/posts/regis/rol5-shading-settings.jpg)
 <br>
 
 New version of print mode.
-![ROL5 Print Mode](/../images/posts/regis/post-rol4-print.jpg)
+![ROL5 Print Mode](/../images/posts/regis/rol5-print.jpg)
 <br>
 
 New version of demographic reports.
-![ROL5 Demographicd Reports](/../images/posts/regis/post-rol4-print.jpg)
+![ROL5 Demographicd Reports](/../images/posts/regis/rol5-report.jpg)
+<br>
+
+**New Features**
+
+ Currently we are in the early design phases of some of the new features that will be coming after the full release of a REGIS MVP.   
+<br>
+
+**User Acceptance Testing**
+
+ Coming soon...   
 <br>
