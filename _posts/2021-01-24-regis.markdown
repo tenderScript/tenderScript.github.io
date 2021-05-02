@@ -71,7 +71,7 @@ To deliver a more purposeful design to our users, I needed to know and understan
 With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software.
 <br>
 
-*Regis user persona template*
+*Regis user persona.*
 ![Susa user persona](/../images/posts/regis/rol-persona.jpg)
 <br>
 
