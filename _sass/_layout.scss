@@ -315,8 +315,10 @@
      z-index: 5;
      overflow: hidden;
 
-     // .more-image { border-bottom: 1px solid #00E5FF; }
-     // .block-title { @include strong-text; }
+     .block-title {
+       @include strong-text;
+       color: $text-light;
+      }
    }
 
    .post-block {
@@ -479,7 +481,7 @@
    }
 
    .more-block {
-     max-width: 17%;
+     max-width: 24%;
 
      .more-details {
        padding: .15em 0 .15em .5em;

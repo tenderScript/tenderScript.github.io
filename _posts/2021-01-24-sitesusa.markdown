@@ -3,7 +3,7 @@ layout: post
 title:  "Sites USA"
 date:   2021-01-24 12:00:00 -0500
 categories: "UX &nbsp; Design"
-image: /../images/posts/sites-usa/post-sitesusa.png
+image: /../images/posts/sites-usa/post-sitesusa.jpg
 permalink: /sites-usa/
 details: "set1"
 client: "Sites USA"
