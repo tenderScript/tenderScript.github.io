@@ -105,27 +105,6 @@ footer {
   position: relative;
   text-align: center;
   overflow: hidden;
-
-  .footer-waves {
-    margin-bottom: 5px;
-
-    .wave-cover {
-      margin-bottom: -250px;
-      height: 50px;
-    }
-
-    .wave4 {
-      position: relative;
-      margin-top: -20px;
-      z-index: 2;
-    }
-
-    .wave5 {
-      position: relative;
-      margin-bottom: -500px;
-      z-index: 1;
-    }
-  }
 }
 
 /**
