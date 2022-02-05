@@ -8,7 +8,7 @@ permalink: /regis/
 details: "set1"
 client: "Sites USA"
 role: "UX/UI Design"
-problem: "Collect and address user feedback from the original application, improve application front-end, improve visibility of existing tools."
+problem: "Collect user feedback from the original application, improve visibility of existing tools."
 solution: "Create channels to store user feedback, test new UI improvements with users, get input from support team."
 preview: /../images/posts/regis/preview-regis.jpg
 ---
