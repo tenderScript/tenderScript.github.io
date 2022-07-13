@@ -8,15 +8,15 @@ permalink: /regis/
 details: "set1"
 client: "Sites USA"
 role: "UX/UI Design"
-problem: "Collect user feedback from the original application, improve visibility of existing tools."
-solution: "Create channels to store user feedback, test new UI improvements with users, get input from support team."
+problem: "Address usability issues, improve flow and modernize UI, bring visibility of existing and upcoming tools "
+solution: "Create channels to store user feedback, test improvements with users, get collect input from sales and support team."
 preview: /../images/posts/regis/preview-regis.jpg
 ---
 
 
 **What is REGIS?**
 
-REGIS is a mapping and demographics program made by Sites USA, which allows users to run a complete analysis on their commercial real estate location(s). This analysis done using demographic data to determine if it is an area that can be developed, rented, or expanded into. The data REGIS uses includes anything from traditional demographic data (population, income, educational attainment etc.) or newer forms like mobile location data, and traffic counts. This data comes from a collection of Sites USA's partners, and allows users to collect a report form, or they can create maps in REGIS’s layout mode for their target market. These maps are then shared or printed to help them illustrate a location's viability to their clients.  
+REGIS is a commercial real estate location analysis tool that gives brokers, agents, and developers the data they need to determine if a location meets their business or client’s needs. The data is a customized range of demographic, traffic, and competitor data that is then exported into a map or report based format allowing users to determine if a location can be developed, rented, or expanded into.   
 <br>
 
 *Old version of site with trade area.*
@@ -62,27 +62,31 @@ REGIS is a mapping and demographics program made by Sites USA, which allows user
 
 **Initial Research**
 
-To deliver a more purposeful design to our users, I needed to know and understand my audience as best I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. The users typically worked for a landlord, a developer, or a broker each of which had slightly different motivations that made them successful in their role. Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as people. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
+To deliver a more purposeful design to our users, I needed to know and understand our audience as best as I could. I started by collecting the existing assumptions Sites USA had about their users, these existing assumptions revolved around each of the users roles within the commercial real estate industry. Regis users typically worked for a landlord, a developer, or a broker each of which had unique motivations that made them successful in their role.
+<br>
+Initially all the research that the company was doing revolved around tracking what features their users used most frequently. I emphasized that this information was a great start to understanding their users within the program and in their industry, but we also needed to take a deeper look at who our users are as people. After some convincing I reached the point were I was given a small list of users that I could test/interview with to show the company what a basic user test would look like, and what they could get from it.
 <br>
 <br>
 
 **User Research**
 
-With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder's assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software.
+With these initial tests and interviews I took note of who was actually using our program, and found out it was rarely the person who signed up for the account, (which was the cause of some communication issues with the users) but they were often the primary account holder’s assistant, marketing department, or secretary for that primary account holder. This answered some of the questions we had about how to prioritize what needed to be worked on, and guided some of the usability testing I would do for the new version of the software.
 <br>
 
 *Regis user persona.*
 ![Susa user persona](/../images/posts/regis/rol-persona.jpg)
 <br>
 
-Often we found that our pie in the sky/dream features were misaligned with some of the the issues these people were having with the existing program. Our users were mostly annoyed with things like the general flow of the program, and having to do work arounds for a desired output. An example of one of these work arounds was there was no way to get their map to fit in the layout/print mode in the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
+I discovered that many of our planned features misaligned with some of the issues these people were having with the existing version of REGIS. Our users were mostly dissatisfied with the general flow of the program, and having to use work-arounds for a desired output. One specific example of a work-arounds was that there was no way for users to fit their maps in the print mode of the product. The result was that they often had to take a screenshot of the webpage, or forgo the layout portion of the product. This was one of the most requested 'features' and it wasn’t anything new to the program, but something that could be worked into an existing feature.
 <br>  
 <br>
 <br>
 
 **Company Goals**
 
-While working on REGIS I also had to take note of the internal needs of Sites USA. One of these needs was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients, which was due to a lack of visibility within the basic membership version of the product. We agreed that REGIS needed to have a way to showcase new features within the product. This would not only help sales, it would also bring to users some of the features they didn’t know existed in REGIS. The support team was also incredibly helpful in aiding the design process of the product, because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
+While working on REGIS I also tracked the internal needs of Sites USA. One of these needs was that some of the sales team had a difficult time demonstrating a few of the add-on features to our clients. This was due to a lack of visibility within the basic membership version of the product, so we agreed that REGIS needed to be able to showcase new features within the product. This would not only help sales, it also highlighted some of the features users didn’t know existed in REGIS.
+<br>
+The support team was also incredibly helpful in aiding the design process of the product, because they were often the first to hear from users calling in with questions and complaints. To capture some of this feedback collected by support my team created a channel for them to log this information. We took the feedback from this channel and entered it into our database to get a rough idea of what wasn’t working as well as it should be.
 <br>
 <br>
 
@@ -107,9 +111,9 @@ The technical requirements were simply to update the application's front-end int
 </table>
 
 
-**Iteration Cycles**
+**Iterations**
 
-We broke up the design tasks in REGIS into small iterative stretches. We started with the core functions of the program as determined by our in-house tool usage site. These functions were what the most users initially signed up to use, and were vital to get correct. We then sketched existing user flows for these tasks, and looked to see what improvements if any there was to be made.
+Design tasks in REGIS were broken into small iterative stretches. We started with the core functions of the program as determined by our in-house tool usage site. These functions were what the most users initially signed up to use, and were vital to get correct. We then sketched existing user flows for these tasks, and looked to see what improvements if any there was to be made.
 <br>
 
 *User flow for prototype.*
@@ -125,7 +129,7 @@ The initial design consisted of adding retail merchants to the map, creating dem
 <br>
 <br>
 
-**Usability Testing**
+**User Testing**
 
 We tested usability on both the old version and the new version. Testing was done by scoring some of our users as well as employees and random people. Part of the reason I choose to include employees was because I was selling the UX process to the company, and was the first person working here that had UX experience. By showing Sites USA some basic UX process allowed them to trust me enough to do more research/UX/UI in the future. From there, I gave some of the users a handful of tasks, and watched them as they worked their way through a prototype design. I would then score them on a scale of 0-3 for each task (see below example). This provided me with some ‘hard’ data that Sites USA could use to determine what areas needed to improve. Some of the things I found was low visibility of some of the features, and a lot of obscure icons that didn’t best convey the tool they where made to interpret.
 <br>
@@ -177,9 +181,4 @@ As it stands now the new version of REGIS is currently in beta. Most of the curr
 **New Features**
 
  Currently we are in the early design phases of some of the new features that will be coming after the full release of a REGIS MVP.   
-<br>
-
-**User Acceptance Testing**
-
- Coming soon...   
 <br>
